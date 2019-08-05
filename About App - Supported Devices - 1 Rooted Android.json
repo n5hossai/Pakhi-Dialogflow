@@ -1,0 +1,209 @@
+{
+  "id": "a431f1db-cb02-4c29-9ff5-d3a8aed7efca",
+  "name": "About App - Supported Devices - 1 Rooted Android",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom.AboutApp-SupportedDevices-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "16089c5a-90e1-40f9-839b-ae8bd253a20f",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To ensure utmost security of your account, bKash app usage is disabled on rooted devices."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c4f5bfe6-94d6-4219-bcfa-caf9ab0fc109",
+      "data": [
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". ",
+          "userDefined": false
+        },
+        {
+          "text": "Rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " Android",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b3825258-06e6-4280-9b85-a6e04eb06b73",
+      "data": [
+        {
+          "text": "ROOT",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e42f6fab-cb73-43b0-812d-67ee42a4da83",
+      "data": [
+        {
+          "text": "rooted",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fe838693-3c76-4f22-8d2d-6b2c4171ba29",
+      "data": [
+        {
+          "text": "app on rooted android",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fced547a-1fec-4a6e-b2cb-8c3fb46f3901",
+      "data": [
+        {
+          "text": "app on rooted andoird",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7be6ac02-c189-4fb6-ab37-e5cfbb03380c",
+      "data": [
+        {
+          "text": "root samsung",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5f924aa7-2dab-4d6c-ad86-09175b6fd34c",
+      "data": [
+        {
+          "text": "samsung",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "40bce182-8ca1-4b48-8195-22be4927d09b",
+      "data": [
+        {
+          "text": "androd",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e07b67ca-1301-4725-aff1-25b25b5bc9c6",
+      "data": [
+        {
+          "text": "adroid",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "03b42b2c-2d80-46cf-b4f9-9f1300a0ab2f",
+      "data": [
+        {
+          "text": "android",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa4c7e8a-c2b7-42e1-bde5-2707f13d8d69",
+      "data": [
+        {
+          "text": "Rooted android",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "e38e88f5-6af3-486a-8a9b-93f44e1d1a7f",
+  "name": "ISSUES - Why can’t I use bKash app on Jailbreak Apple devices?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f28fccd0-977c-4ea1-8858-b116da6fc592",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To ensure utmost security of your account, bKash app usage is disabled on jailbeak devices."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "92aaba83-9c13-4d96-aeb8-56800fcbefd9",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Jailbreak problem",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eba00dd7-cd0c-43c6-99ad-2add8f3df924",
+      "data": [
+        {
+          "text": "Why can't I use bKash app on Jailbreak Apple devices?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

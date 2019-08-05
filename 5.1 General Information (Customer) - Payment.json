@@ -1,0 +1,131 @@
+{
+  "id": "0173c6f1-89f6-4dc6-adf1-86f42b3401a5",
+  "name": "5.1 General Information (Customer) - Payment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You can make payments from your bKash Account to any “Merchant” who accepts “bKash Payment”. Now you can bKash your Payment at more than 47,000 outlets nationwide. To bKash your Payment follow the steps below:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Go to your bKash Mobile Menu by dialing *247#                                                                                   \n2. Choose “Payment”                                                                                                                                                                                                                                                         3. Enter the Merchant bKash Account Number you want to pay to                                                          \n4. Enter the amount you want to pay                                                                                                                                                                                                                              5. Enter a reference* against your payment (you can mention the purpose of the transaction in one word. e.g. Bill)                                                                                                                                                    6. Enter the Counter Number* (the salesperson at the counter will tell you the number)                                                                                                                                     7. Now enter your bKash Mobile Menu PIN to confirm"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope you have you answers now, have a good day!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1121637e-6dec-459a-8006-8690b6868bf8",
+      "data": [
+        {
+          "text": "টাকা পেমেন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a959525c-7074-44bc-90f3-333553030b9a",
+      "data": [
+        {
+          "text": "পেমেন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "40abf5c4-7fed-49fc-90cd-319f935a09bc",
+      "data": [
+        {
+          "text": "payment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8057a015-f1d6-48a3-aa43-0fdb87b2fdd0",
+      "data": [
+        {
+          "text": "pai ment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bc0e5b2b-85ca-46c1-9236-d3df61646de6",
+      "data": [
+        {
+          "text": "pament",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f4c8285d-8cb7-4f83-8451-a31fb55e450e",
+      "data": [
+        {
+          "text": "pay money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

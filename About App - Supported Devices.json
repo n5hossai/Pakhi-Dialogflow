@@ -1,0 +1,286 @@
+{
+  "id": "6cb39747-e9c8-416f-ab05-373151bb1bda",
+  "name": "About App - Supported Devices",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "bKash app will work on your phone if it meets the following criteria: \n   - Android devices- OS 4.4 and above (Not Rooted)\n   - Apple devices- iOS 9.1 and above (Not Jailbreak)"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "More possible questions you might want answers to:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Why can't I use bKash app on Rooted Android devices?                                               2. Why can't I use bKash app on Jailbreak Apple devices?                                               3. Why can't I use bKash app even if I don't use a rooted device?                                   4. In the same handset can I use bKash app beside other MFS apps?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": []
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Choose one:",
+          "replies": [
+            "1. Rooted Android",
+            "2. Jailbreak Apple",
+            "3. Not rooted device",
+            "4. MFS app use"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7e2f8aa4-ea65-468c-b845-3544c2390e95",
+      "data": [
+        {
+          "text": "সাপোর্ট ডিভাইস",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b8d89f46-46dd-4db7-80bd-ef95c75be18d",
+      "data": [
+        {
+          "text": "supported wallet devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "80f9a117-211e-4f76-b3bd-d7a6fa0e9387",
+      "data": [
+        {
+          "text": "wallet devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2ae06773-13c2-4562-84b8-1585050671a1",
+      "data": [
+        {
+          "text": "possible devices for wallet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d4a5b116-c0c3-4252-b19c-cf782226887f",
+      "data": [
+        {
+          "text": "possible devices for bkash app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b183e663-d922-4716-89dc-dc12e0707445",
+      "data": [
+        {
+          "text": "possible devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ca0c52fd-42d1-48be-9eb8-f5aea2a8043e",
+      "data": [
+        {
+          "text": "device for app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ed367da7-332b-48fa-8102-392b9f3f55ae",
+      "data": [
+        {
+          "text": "possible devices for app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "690c0fc3-8aa0-484b-a056-8dbf773b2112",
+      "data": [
+        {
+          "text": "phones i can use app on",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6b6b287c-a53a-45e5-ba83-c6960fb33131",
+      "data": [
+        {
+          "text": "devices that support app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "14c90afe-9c6d-40f4-ac1d-ab3b31fcc6dd",
+      "data": [
+        {
+          "text": "devices that support bkash app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "729f89fd-c0d2-44e7-aec0-3fb27ab1a75f",
+      "data": [
+        {
+          "text": "supported devices for bKash app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "909d2dc3-706e-47ab-91cb-c21dd9fc91d1",
+      "data": [
+        {
+          "text": "devices on which app can be used",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "55f4ad33-76e2-4e81-aa41-5dc207a4ea35",
+      "data": [
+        {
+          "text": "app devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "01191c4e-bcdf-400b-ac32-dd8f8501cf1b",
+      "data": [
+        {
+          "text": "supported device types",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7560049d-10f1-4423-a4d5-3cd868461d2a",
+      "data": [
+        {
+          "text": "Supported phone types",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0271caae-87ae-4c21-a305-e591f9cc532b",
+      "data": [
+        {
+          "text": "supported devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,207 @@
+{
+  "id": "6f10456d-73ac-4a4c-b3e2-48a3e80b2bde",
+  "name": "About App - Supported Devices - 2 Jailbreak Apple",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom.AboutApp-SupportedDevices-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To ensure utmost security of your account, bKash app usage is disabled on jailbeak devices."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "23fac8a0-fb0e-47ff-a39d-9bc5f972068b",
+      "data": [
+        {
+          "text": "অ্যাপেল জাইল্ব্রেক",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "964b7d59-7114-4dc8-8ca4-79328d5ee57d",
+      "data": [
+        {
+          "text": "অ্যাপেল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2aa142d9-09e3-4c79-bcae-5b4751ec3075",
+      "data": [
+        {
+          "text": "apple jailbrek devise",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "061c8918-24da-4870-b5d4-a3cff0cf1b26",
+      "data": [
+        {
+          "text": "can't use app on Jailbreak apple devices",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9d675b3c-d0a2-4540-a897-41567bd38ec1",
+      "data": [
+        {
+          "text": "can't use app on jailbreak device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "89dd8c55-0647-4a07-9fcf-1e7840866706",
+      "data": [
+        {
+          "text": "jailbreak apel",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "69f1e0f0-7e4a-4a03-8c7d-af2aa3ba88d6",
+      "data": [
+        {
+          "text": "apel",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4e306981-1566-4bd6-a973-a08477622a81",
+      "data": [
+        {
+          "text": "appel",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "027d33cf-b683-4c7f-9ce7-58789df1ed75",
+      "data": [
+        {
+          "text": "Jailbreak Apple",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "17d1736b-acfd-4f3a-90fc-0dc78606b4f8",
+      "data": [
+        {
+          "text": "Apple Jailbreak",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "59dc0191-8081-43b0-a419-0aebfd2f3a07",
+      "data": [
+        {
+          "text": "apple",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "48924c0e-a21b-4ce3-83b6-fe92d65659d5",
+      "data": [
+        {
+          "text": "jailbreak",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "983d18e6-1925-40a4-8acf-848ca072f3b8",
+      "data": [
+        {
+          "text": "jaibreak",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,321 @@
+{
+  "id": "881e4962-76ad-4adf-af7c-cf44155c6316",
+  "name": "5.1 General Information (Customer) - Check Balance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You can check your bKash Account balance anytime you want from the \"Check Balance\" option. To check your current Account balance, follow the steps below:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Go to your bKash Mobile Menu by dialing *247#                                                                             \n2. Choose “My bKash”                                                                                                                                        \n3. Choose “Check Balance”                                                                                                                               \n4. Enter your Mobile Menu PIN"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "You will see the current and available balance of your bKash Account.",
+            "You will then be able to see the current and available balance of your bKash account"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope I could be of help today!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a8b7dc6e-4237-460d-bd4b-b0b7bb31fa6a",
+      "data": [
+        {
+          "text": "ব্যাল্যান্স চেক",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "136040bf-a11c-4509-a64e-2f892198a666",
+      "data": [
+        {
+          "text": "বিকাশ এ ব্যালেন্স বাকি আচ্ছে কত কিভাবে দেখব?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6cc000e2-28bd-4181-a7f9-0e265dbd18c2",
+      "data": [
+        {
+          "text": "ফোন এ বালেন্স বাকি কত?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d740e4d1-a15e-4f88-972c-0b368b34a7c1",
+      "data": [
+        {
+          "text": "ব্যালেন্স",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5b8fd362-c912-4a9d-91c7-712fdb91bae3",
+      "data": [
+        {
+          "text": "balance left in wallet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "129a5775-b3b4-441a-87a9-929e16a8ae11",
+      "data": [
+        {
+          "text": "wallet balance left",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8c4c8011-5ff3-4084-a66c-744ca7b486b5",
+      "data": [
+        {
+          "text": "money in bkash",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "746571e3-1c9d-4e4d-8d3b-51f1796b0529",
+      "data": [
+        {
+          "text": "bKash balance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4b58120b-d5d1-4509-a08a-91ffe9d1881e",
+      "data": [
+        {
+          "text": "money in wallet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "63da815e-1fc3-48d2-84b2-775bc0908fa1",
+      "data": [
+        {
+          "text": "wallet balance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d6f022b2-b34a-4cc9-b53b-f82e7773435c",
+      "data": [
+        {
+          "text": "balance left",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "25076b75-b644-4608-83a5-c798650b4ac0",
+      "data": [
+        {
+          "text": "balans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3a180c5f-90aa-4160-b696-3189c1b77c93",
+      "data": [
+        {
+          "text": "check number balance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a5824b93-6a59-4778-95cd-b0433f46b7b9",
+      "data": [
+        {
+          "text": "check num bal",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3439fe5d-de22-4dfe-b154-cf4d9b6a6d32",
+      "data": [
+        {
+          "text": "chek num bal",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a1f6ba56-a878-47ad-9161-963b2c2fca86",
+      "data": [
+        {
+          "text": "number balance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6240c2b3-22b4-4d29-b061-1e4c317965b3",
+      "data": [
+        {
+          "text": "money in phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "313496cc-cdaa-49fb-8a0d-fba83ada533e",
+      "data": [
+        {
+          "text": "check money in phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "28915bcd-1611-4b12-a9c9-ff6e1b4c413c",
+      "data": [
+        {
+          "text": "balance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "81a317b3-3dd8-46f3-9316-ff70832e350c",
+      "data": [
+        {
+          "text": "check bal",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,224 @@
+{
+  "id": "288e89e6-948b-4678-8276-f8cf70d4c240",
+  "name": "5.2 General Information (Customer) - Bank Transfer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "52GeneralInformationCustomer.52GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4d4ef9e9-37ee-4630-bdcf-c85a13764794",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e77cbebd-01e7-4265-8180-e05306d6b6ea",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType1",
+          "value": "$Customer_serviceType1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You can transfer fund from bank account to any bKash customer account via internet banking. To be able to do so, first you may need to add bKash account as beneficiary and then make the transfer."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Adding beneficiary:\n1. Log into your internet banking mobile app or web\n2. Go to manage beneficiary\n3. Add bKash account as beneficiary by following the steps as per instruction\n4. Now you can transfer fund to the added beneficiary\nTransferring fund:\n1. Go to Fund Transfer from your internet banking mobile app or web\n2 Select source of fund (account number) if applicable\n3. Select bKash account transfer\n4. Select bKash account from beneficiary list\n5. Enter amount and reference\n6. Complete the transaction following your bank’s transaction process"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "For more information, visit: bkash.com/bank-transfer-ibanking"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "06026bd9-bc0c-473c-a912-ce242f834c3c",
+      "data": [
+        {
+          "text": "ব্যাংক থেকে টাকা ট্র্যান্সফার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2c7f5782-85ee-4dc1-a425-a9b5442b4fd6",
+      "data": [
+        {
+          "text": "টাকা ট্র্যান্সফার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8586e6be-5a5b-4dfb-8080-e684c219ef03",
+      "data": [
+        {
+          "text": "টাকা ত্রান্সফের",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "170896c1-e2c7-424b-9fe4-a46bc45310e9",
+      "data": [
+        {
+          "text": "transfer",
+          "alias": "Customer_serviceType1",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " money to ",
+          "userDefined": false
+        },
+        {
+          "text": "bank",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "16e139dc-fe26-40c1-b3ee-a18d2bfb626b",
+      "data": [
+        {
+          "text": "transfer",
+          "alias": "Customer_serviceType1",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " money from ",
+          "userDefined": false
+        },
+        {
+          "text": "bank",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7cdd84bd-08d6-4409-862a-2b1262082a9e",
+      "data": [
+        {
+          "text": "money ",
+          "userDefined": false
+        },
+        {
+          "text": "transfer",
+          "alias": "Customer_serviceType1",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " from ",
+          "userDefined": false
+        },
+        {
+          "text": "bank",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "73c71d91-f9e5-4df6-8388-6f5cd5ddbfc1",
+      "data": [
+        {
+          "text": "Bank Transfer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1299d5f3-3dff-4849-8785-3cf612ce885c",
+      "data": [
+        {
+          "text": "transfer",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

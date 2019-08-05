@@ -1,0 +1,68 @@
+{
+  "id": "5f79c7d3-53a0-498f-a490-e95f595cf366",
+  "name": "I can’t use the app. The text- ‘The app works only in Bangladesh’ pop up while opening the app.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Could you kindly check if your Wi-Fi is connected to another’s country’s server through VPN or similar technology. If you are still not getting connected through WIFI, please try to enable your mobile data to access the bKash app for better service."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "71ca1483-2964-4455-bf0b-9a14fa73351f",
+      "data": [
+        {
+          "text": "3",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Outside BD",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "02e5810f-1125-4228-bb28-07cfdb9f2b06",
+      "data": [
+        {
+          "text": "I can't use the app. The text- ‘The app works only in Bangladesh' pop up while opening the app.",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

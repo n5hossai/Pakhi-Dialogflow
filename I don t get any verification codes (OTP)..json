@@ -1,0 +1,116 @@
+{
+  "id": "8d17e2f3-d8df-4412-8619-85f2ae82c901",
+  "name": "I don’t get any verification codes (OTP).",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71a24efd-3dce-4724-8e65-3ece1f36a65d",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To use bKash app, your bKash account sim card should be activated in your handset so that for 1st time sign up of bKash app, your OTP (one time password) will be auto generated for the successful initialization for android."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "423e83c0-d326-4a00-93d9-ace3910c97d7",
+      "data": [
+        {
+          "text": "5",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Not getting ",
+          "userDefined": false
+        },
+        {
+          "text": "OTP",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e76ed809-f531-43b5-ae0b-b46a715b42b3",
+      "data": [
+        {
+          "text": "text ashe na",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "071d22da-94ca-455a-a8a9-8721f51484d7",
+      "data": [
+        {
+          "text": "OTP",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6c6aa1d2-b8b5-478b-9c86-6ea0ff22296e",
+      "data": [
+        {
+          "text": "I don't get any verification codes (OTP).",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

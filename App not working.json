@@ -1,0 +1,129 @@
+{
+  "id": "37b6fc01-e3ab-4900-a116-729bce062a33",
+  "name": "App not working",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "bKash app will work on your phone if it meets the following criteria:\n    * Android devices- OS 4.4 and above (Not Rooted)\n    * Apple devices- iOS 9.1 and above (Not Jailbreak)"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Still haven't found what you were looking for? Then:\n1. Why can't I use bKash app on Rooted Android devices?\n2. Why can't I use bKash app on Jailbreak Apple devices?\n3. Why can't I use bKash app even if I don't use a rooted device?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "1. Rooted problem",
+            "2. Jailbreak problem",
+            "3. Not a rooted/jail",
+            "4. Ask a question"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "bc5caebc-6fdd-49db-ba60-c6806d90fc18",
+      "data": [
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". ",
+          "userDefined": false
+        },
+        {
+          "text": "App not working",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "28c2d1a4-c692-4dde-877e-bbc3caa1fbe7",
+      "data": [
+        {
+          "text": "my app isn't working",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3f86ce3b-7eaf-4740-bc22-a4f9bdeb1478",
+      "data": [
+        {
+          "text": "not working",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c8a02e0c-e0d9-445f-bc40-1195426e24c6",
+      "data": [
+        {
+          "text": "app not working",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "493c715b-1e37-405b-87c3-3f2c824feb02",
+      "data": [
+        {
+          "text": " App not working",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

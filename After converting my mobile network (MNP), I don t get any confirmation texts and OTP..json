@@ -1,0 +1,120 @@
+{
+  "id": "b4839cad-467a-42fe-bf6c-a47c701db0db",
+  "name": "After converting my mobile network (MNP), I don’t get any confirmation texts and OTP.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "79410f0c-9279-43d2-822e-7e34372d10ad",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "If you Converted your network then you will face some problem in your bKash Account to get confirmation SMS, OTP and mobile recharge by bKash App. Please be informed that I have already informed our concern department regarding your issue and they are working on it."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3c177d5d-bc63-4670-8045-5802b855d2e4",
+      "data": [
+        {
+          "text": "7",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Not getting texts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "facc5780-ac9e-44be-801c-55f0b4ef8e9c",
+      "data": [
+        {
+          "text": "MNP OTP",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "04d39221-9ad5-4089-afb3-3eb7f5be7aad",
+      "data": [
+        {
+          "text": "MNP",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6add00cc-6056-45bc-9616-f8b64065d755",
+      "data": [
+        {
+          "text": "After converting my mobile network (MNP), I don't get any confirmation texts and ",
+          "userDefined": false
+        },
+        {
+          "text": "OTP",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

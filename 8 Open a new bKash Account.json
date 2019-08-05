@@ -1,0 +1,191 @@
+{
+  "id": "2e475cba-0d9a-4cf0-9910-462a9d53b0b8",
+  "name": "8 Open a new bKash Account",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Opening a bKash Account is very easy and it is absolutely free! Currently, bKash Account opening is available in Airtel, Banglalink, Grameenphone, Robi and Teletalk connections."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You can open a bKash account at a agent point or bKash Center or\nbKash Plus"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Go to nearby bKash agent/ bKash center/ bKash Plus along with\n   Mobile phone\n   NID (Photocopy)/ Driving License (Original and Photocopy)/ Passport (Original and Photocopy \n   One copy of passport size photograph"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Open new bKash Account",
+          "subtitle": "Now, opening a new bKash account is easier than ever.",
+          "imageUrl": "https://www.bkash.com/sites/all/themes/bkash/logo.png?1234",
+          "buttons": [
+            {
+              "text": "Click here for Details",
+              "postback": "https://www.bkash.com/i-want-register/registration-agent-point-customer"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "2e628f05-2838-4158-ae36-6a3a5d32ed06",
+      "data": [
+        {
+          "text": "নতুন বিকাশ অ্যাকাউন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0880486e-0814-4306-9d40-709a53fffc46",
+      "data": [
+        {
+          "text": "অ্যাকাউন্ট তৈরি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4d7f9379-4418-470d-a589-f5ba95b18cbf",
+      "data": [
+        {
+          "text": "নতুন অ্যাকাউন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8c4a4c3e-ff85-47c9-8818-5465848fdf95",
+      "data": [
+        {
+          "text": "নতুন অ্যাকাউন্ট তৈরি করব",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a76bb5f9-d588-4436-8413-36fecfb52c72",
+      "data": [
+        {
+          "text": "নতুন অ্যাকাউন্ট তৈরি করুন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "54ba3263-e429-4d64-9729-d2a1954331e6",
+      "data": [
+        {
+          "text": "notun account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6a9b8712-feae-406a-8450-396ad499e092",
+      "data": [
+        {
+          "text": "account khulun",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2f6550a0-6cf4-467d-8dac-1b7a756e662b",
+      "data": [
+        {
+          "text": "make new account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6d70526b-ab02-47bd-8324-fb6fe4ea0fb5",
+      "data": [
+        {
+          "text": "new account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7782003f-269e-4b71-9ed0-61298d49227a",
+      "data": [
+        {
+          "text": "Open new account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,210 @@
+{
+  "id": "53e6d59a-32ce-4256-9fb2-62a969060fd8",
+  "name": "7 About Offers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Here are our current offers:"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Win Jersey by Wishing",
+          "subtitle": "Wish BD Cricket team this ICC World Cup 2019 and win a jersey",
+          "imageUrl": "https://www.bkash.com/sites/default/files/Jersey_Homepage-Slider_0.png",
+          "buttons": [
+            {
+              "text": "Details",
+              "postback": "https://www.bkash.com/win_jersey"
+            },
+            {
+              "text": "More Offers",
+              "postback": "https://www.bkash.com/"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Use App",
+          "subtitle": "bKash app is now available in both android and iOS",
+          "imageUrl": "https://www.bkash.com/sites/default/files/Website-Slide_54.jpg",
+          "buttons": [
+            {
+              "text": "For android, click here",
+              "postback": "https://play.google.com/store/apps/details?id=com.bKash.customerapp&hl=en"
+            },
+            {
+              "text": "For iOS, click here",
+              "postback": "https://apps.apple.com/us/app/bkash/id1351183172"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "5481a8b4-c63c-4fd8-b952-247a5d384299",
+      "data": [
+        {
+          "text": "চলছে অফার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8aab6f57-f6e8-4517-830d-60f9a5f34223",
+      "data": [
+        {
+          "text": "অফার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3040e316-424d-4d34-ada4-4dea0f23b9a7",
+      "data": [
+        {
+          "text": "অফের",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8a5f25ad-bc9d-4b96-bb9f-5ea6c8bdea8a",
+      "data": [
+        {
+          "text": "current ",
+          "userDefined": false
+        },
+        {
+          "text": "offers",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bba0dc62-b252-40cb-aec9-d54d37a9ca58",
+      "data": [
+        {
+          "text": "Let me know more about offers",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9407bbc9-db4b-4c23-90d4-22cefe406ff5",
+      "data": [
+        {
+          "text": "more",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " about ",
+          "userDefined": false
+        },
+        {
+          "text": "offers",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b515df8b-71b1-468f-89b4-e2159563c095",
+      "data": [
+        {
+          "text": "About ",
+          "userDefined": false
+        },
+        {
+          "text": "offers",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "72af12f6-d487-4c78-ad18-e074a7545e22",
+      "data": [
+        {
+          "text": "Tell me about offers",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2cd473ae-0e7e-4c66-b59c-293c03092cee",
+      "data": [
+        {
+          "text": "Offers",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "46e54733-bbcb-4bb9-ad49-338ecf734166",
+  "name": "input given was only agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Do you want to become an agent, or cash out from agent ?",
+          "replies": [
+            "CashOutFromAgent",
+            "BecomeAnAgent"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "041a6074-e384-4830-b1f1-2c5f8f7f9890",
+      "data": [
+        {
+          "text": "দোকানদার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b287e2ef-533f-4e5e-bdb9-d608485fbfde",
+      "data": [
+        {
+          "text": "azent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "89f01163-094f-44a0-b391-a22671c61150",
+      "data": [
+        {
+          "text": "agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

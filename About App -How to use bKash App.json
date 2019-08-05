@@ -1,0 +1,174 @@
+{
+  "id": "ad67c2f9-1270-4c1f-89dc-ca8cb316fa1c",
+  "name": "About App -How to use bKash App",
+  "auto": true,
+  "contexts": [
+    "AboutApp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Using bKash App is very simple, easy & safe."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "How to use bKash App ?",
+          "replies": [
+            "Download bKash App",
+            "Cash In",
+            "Cash Out",
+            "Mobile Recharge",
+            "Payment",
+            "Pay Bill",
+            "Change PIN",
+            "Balance Statement",
+            "Refer a friend"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b839c8d4-68a6-41c2-a84e-dbcfe11ba38e",
+      "data": [
+        {
+          "text": "কিভাবে",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c0a30eb-6317-46bc-912f-046ef957b97d",
+      "data": [
+        {
+          "text": "কিভাবে bkash অ্যাপ্লিকেশন ব্যবহার করব ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cccbb0a4-8244-4d89-ab63-38855ff82772",
+      "data": [
+        {
+          "text": "কিভাবে bkash অ্যাপ্লিকেশন ব্যবহার করবেন?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b4ada23f-28c5-4463-b1f3-8fbf700c7a9b",
+      "data": [
+        {
+          "text": "How to",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dde4c273-a190-4903-864d-1dcdbe5d6145",
+      "data": [
+        {
+          "text": "use kore kibhabe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a9e14033-a2a0-4265-a11a-486253238137",
+      "data": [
+        {
+          "text": "kibhabe use kore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6511d2a5-9324-4452-b05e-5a251ad916d8",
+      "data": [
+        {
+          "text": "kibhabe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2d8f5d0a-3b4d-462d-93e9-dc926f6a4e11",
+      "data": [
+        {
+          "text": "How to use bKash app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "da6fc5c9-7c9d-4474-9174-0cec8785f6ad",
+      "data": [
+        {
+          "text": "How",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

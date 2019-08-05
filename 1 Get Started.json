@@ -1,0 +1,91 @@
+{
+  "id": "4c8d7995-51ad-4e81-8064-9988babc9089",
+  "name": "1 Get Started",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Hello, I'm Pakhi! Nice to meet you",
+          "subtitle": "I'm here to assist you, please proceed",
+          "imageUrl": "https://www.pastepic.xyz/images/2019/07/01/Hello-Ami-Pakhi6f56aa5032c19ea5.png",
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "I am your virtual assistant Pakhi. Which language would you prefer to continue in?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "আমি আপনার ভার্চুয়াল অ্যাসিস্টেন্ট  পাখি!  আপনি কোন ভাষায় কথা বলতে চাচ্ছেন?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Pick a language",
+          "replies": [
+            "English (ইংরেজি)",
+            "বাংলা (Bengali)"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "get_started": {
+              "payload": "<GET_STARTED_PAYLOAD>"
+            }
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6654c4aa-4413-4790-a01e-cb9acf92638f",
+      "data": [
+        {
+          "text": "No!",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0cc81720-5d64-4372-9e42-056559bbea1e",
+      "data": [
+        {
+          "text": "Get Started",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

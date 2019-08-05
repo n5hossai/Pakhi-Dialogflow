@@ -1,0 +1,109 @@
+{
+  "id": "2ea9e1b5-37bf-4310-b982-905108a0d71a",
+  "name": "web view test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Send Money:",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "https://naymulhulk.github.io/bKashSendMoney/",
+                      "title": "Click here to Send Money",
+                      "webview_height_ratio": "full",
+                      "messenger_extensions": true
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f2b96da9-b1c2-4ddb-97c4-638be6c2d86b",
+      "data": [
+        {
+          "text": "web view",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5e3f9827-84a9-4fa2-9eb3-ed4e7085ee7e",
+      "data": [
+        {
+          "text": "webview test",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "594d439c-2075-4658-a1cc-c7160205f2ac",
+      "data": [
+        {
+          "text": "webview",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "62b0e9c7-0553-4c9a-9e79-77ba14bd72d9",
+      "data": [
+        {
+          "text": "web view test",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

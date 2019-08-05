@@ -1,0 +1,191 @@
+{
+  "id": "f5ae3ae4-8172-4670-82d2-4c03fe0ac3b8",
+  "name": "5.2 General Information (Customer) - Remittance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "52GeneralInformationCustomer.52GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Bangladeshis living abroad can send international remittance in the easiest and most convenient way to their near one’s bKash Account in Bangladesh through authorized and enlisted Foreign Bank, Money Transfer Organization (MTO) and Money Exchange Houses."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To send International Remittance from abroad to a bKash Account in Bangladesh\n\nVisit authorized and partner Bank branch/Money Exchange/MTO agent\nInform beneficiary bKash Account number and Full name (as mentioned during bKash Account Opening)\nHandover required cash and request Bank/Money Exchange/MTO Agent to initiate and complete the process"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "While sending remittance from abroad the Bank/Exchange House/MTO Agent ensures the following:\n\nBeneficiary has a registered and valid bKash Account\nBeneficiary’s bKash Account number and Full name has been communicated accurately\nTransaction amount (in Bangladeshi Taka) is not exceeding the limit*"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Enlisted Money Exchange/Bank branches and respective countries from where you can send Remittance to Bangladesh:"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "imageUrl": "https://www.bkash.com/sites/default/files/userfiles/files/june/Website-Image(1).jpg",
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Or you can use Western Union:"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Western Union with bKash",
+          "subtitle": "Get remittance through bKash from Western Union",
+          "imageUrl": "https://d1ic4altzx8ueg.cloudfront.net/finder-us/wp-uploads/2017/01/western-union-logo.png",
+          "buttons": [
+            {
+              "text": "Western Union",
+              "postback": "https://www.bkash.com/Western_Union"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c75923e2-7e42-4991-9826-ca5d2d48e9e5",
+      "data": [
+        {
+          "text": "রেমিট্যান্স",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "06c4f9e8-a521-4bce-a732-f0ee6e6d9a8f",
+      "data": [
+        {
+          "text": "রেমিতান্স",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "892ec748-cc34-476a-bc3e-548c413552d0",
+      "data": [
+        {
+          "text": "remitrens",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dbcbfcb6-0d40-4bce-8f76-bf0b2ff6bbae",
+      "data": [
+        {
+          "text": "remitrans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5b66cb22-90f5-4cd3-84dd-36fccf4f7e5e",
+      "data": [
+        {
+          "text": "remit",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2a13fc7d-ca63-44d5-86df-77252d35b479",
+      "data": [
+        {
+          "text": "remitans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "681b6c96-ae8a-4ffd-82c3-600dd8521e28",
+      "data": [
+        {
+          "text": "remittence",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9a59efdd-3db5-42ed-9eb5-42ce1f3bc9ec",
+      "data": [
+        {
+          "text": "প্রেরণ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "079dc7ae-a336-464f-bfc9-916324cf898b",
+      "data": [
+        {
+          "text": "Remittance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

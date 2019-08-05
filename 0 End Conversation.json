@@ -1,0 +1,354 @@
+{
+  "id": "310d1e1c-f1ce-4f9a-b0f8-c5208e040952",
+  "name": "0 End Conversation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope I could be of use today, please don't hesitate to reach out if you have any more questions. Good day!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "586a2f94-85aa-4b66-aca4-28dbf6d85566",
+      "data": [
+        {
+          "text": "খোদা হাফেয",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "80ec624e-c301-4564-a112-0b8fe7eb1562",
+      "data": [
+        {
+          "text": "বাই",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "540b866d-f922-4938-8901-8e28ea2e9807",
+      "data": [
+        {
+          "text": "বায়ে",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e9ed1d73-1f15-4e7a-b377-3648bd89aa0c",
+      "data": [
+        {
+          "text": "থ্যাংক",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "54b932a6-bf4a-4842-887b-ade91afdc2da",
+      "data": [
+        {
+          "text": "ধন্যবাদ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8d6de3d2-fc41-4386-890a-039be6230ca9",
+      "data": [
+        {
+          "text": "Okay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "12b033d7-631c-473f-bccc-1897259757e6",
+      "data": [
+        {
+          "text": "☺",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "df3c1e33-12ac-4eaf-ba4b-2a6d5c9b9ddb",
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "656fcce8-dd0c-41b7-a350-b9ea27c5dff8",
+      "data": [
+        {
+          "text": "thanks ☺",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "44dfe2bd-4552-49d9-98d5-a85fe4a75cd2",
+      "data": [
+        {
+          "text": "thnx ☺",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dd6c0f48-e2a7-410e-a870-bdbff2c031a6",
+      "data": [
+        {
+          "text": "*thnx",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "08e7fe97-7232-43ad-8ff0-022b86426c8f",
+      "data": [
+        {
+          "text": "hnx",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ba4c2002-382e-4f9b-b328-19adc47ca8ae",
+      "data": [
+        {
+          "text": "thank",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b2a20f4f-8ea9-4bf4-ae8d-a43997477066",
+      "data": [
+        {
+          "text": "tnx",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ca3c1cf0-985f-44d9-99f4-43df3ae73b6f",
+      "data": [
+        {
+          "text": "Thanks",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "11f307eb-7af6-400e-8034-43deb0a8fb8c",
+      "data": [
+        {
+          "text": "end convo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7bc8fa0e-2e69-4fea-8070-4f6aba644ebf",
+      "data": [
+        {
+          "text": "adios",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d92241fa-b2eb-4da9-9f15-02168040c0a0",
+      "data": [
+        {
+          "text": "Goodbye",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8bee2ac4-6595-436a-9a94-303ff159266e",
+      "data": [
+        {
+          "text": "Bye",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d47d9606-bc13-4428-89e8-3279cd5f2b7e",
+      "data": [
+        {
+          "text": "Bye for ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cc4a214f-aed4-4100-9b00-21f005ab875d",
+      "data": [
+        {
+          "text": "Stop messages",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7101ab3d-bea5-4c7a-87be-090a9412871e",
+      "data": [
+        {
+          "text": "Stop",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e7da6a55-a7fb-466e-af84-df01f62fc5b9",
+      "data": [
+        {
+          "text": "end",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9490cac6-eb79-4b69-b366-fea2f8e82f26",
+      "data": [
+        {
+          "text": "End conversation",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

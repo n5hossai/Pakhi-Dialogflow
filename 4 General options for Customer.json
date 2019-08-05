@@ -1,0 +1,173 @@
+{
+  "id": "ea298a74-a5b1-49f1-af49-6397b6ede22c",
+  "name": "4 General options for Customer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "58178aad-05d6-47f9-9866-2e39fee1d416",
+          "required": true,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "prompts": [
+            "Please enter the correct service type (Customer, Merchant, or Agent)"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Great! How can I help you today?",
+          "replies": [
+            "General Information",
+            "About bKash App",
+            "About Offers",
+            "Opening new account",
+            "Forgot my PIN",
+            "Issues",
+            "FAQ",
+            "Ask a Question",
+            "Back"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ef91c538-cf51-4697-92b1-c09666bad0b9",
+      "data": [
+        {
+          "text": "customers",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b3195096-d2d9-446c-afcb-08c678412126",
+      "data": [
+        {
+          "text": "customar",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f3083f5e-4b82-428f-976e-115e2e6349a5",
+      "data": [
+        {
+          "text": "Custom",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bab3a98a-b379-4332-918f-4b7d87058bb6",
+      "data": [
+        {
+          "text": "ক্রেতা",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f5615d37-0954-434d-8081-e794175ef4fc",
+      "data": [
+        {
+          "text": "কাস্টমের",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3fc5c8b6-b9c9-424d-bd4c-f2faa35bcd2a",
+      "data": [
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "#",
+          "userDefined": false
+        },
+        {
+          "text": "Customer",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "621e268a-59cf-480e-98c6-134927749e73",
+      "data": [
+        {
+          "text": "Customer",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

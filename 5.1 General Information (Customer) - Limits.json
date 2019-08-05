@@ -1,0 +1,206 @@
+{
+  "id": "714d3de0-5ece-4a66-be79-6adf37b8386a",
+  "name": "5.1 General Information (Customer) - Limits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection. Here are the transaction limits:"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "imageUrl": "https://pasteboard.co/ImnAf57.png",
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "limit",
+          "subtitle": "Here is the bKash limit.",
+          "imageUrl": "https://imgur.com/a/2gwOSVG",
+          "buttons": [
+            {
+              "text": "Or visit",
+              "postback": "https://www.bkash.com/support/tariff-limits/limits"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope your questions are answered. Feel free to ping me anytime!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "abcf7f79-052b-4fbb-b8ae-e53494cc4eaa",
+      "data": [
+        {
+          "text": "লিমিটস",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cdeef6d3-4391-4969-b25a-fe0358e95b9f",
+      "data": [
+        {
+          "text": "লিমিট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1f84babb-6905-42c5-9879-491fb0b402bb",
+      "data": [
+        {
+          "text": "লিমিত",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3a77d597-5570-4d1a-9835-1daf5dd83c21",
+      "data": [
+        {
+          "text": "মাসিক সীমা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5688ecbf-d9d0-48ab-8888-d30b7b3ce0a7",
+      "data": [
+        {
+          "text": "সীমা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8a2f1d0b-9c52-4887-bb63-e6dcd0750808",
+      "data": [
+        {
+          "text": "lim",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8cca3d64-ab98-46b2-9569-20719b1c4944",
+      "data": [
+        {
+          "text": "lims",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "334aef42-19a8-4543-8bc4-3adfb66e13cd",
+      "data": [
+        {
+          "text": "limeets",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "89590a9b-dccd-42e7-8c62-e39928410bd9",
+      "data": [
+        {
+          "text": "Limits",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9758022b-55c4-4a72-93ee-c821f32bdef8",
+      "data": [
+        {
+          "text": "limit",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ae19735e-2bb7-4ed6-bae1-18ccca6b562e",
+      "data": [
+        {
+          "text": "lemit",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

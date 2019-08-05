@@ -1,0 +1,109 @@
+{
+  "id": "0705edfc-261d-45ff-9254-28d8222813f6",
+  "name": "Fallback when Bangla chosen",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "348c0a85-399e-4591-8289-c876f19b19ca",
+          "required": true,
+          "dataType": "@Bengali_language",
+          "name": "Bengali_language",
+          "value": "$Bengali_language",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "দুঃখিত :( , আমি এখন পর্যন্ত সম্পূর্ণ বাংলা ভাষায় কথা বলতে পারছি না, কিন্তু আমি শিখছি! আপাতত ইংরেজি নির্বাচন করুন"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "I can't converse in Bangla fully yet but I'm learning!"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Please choose English for now, sorry about the inconvenience :(",
+          "replies": [
+            "ইংরেজি (English)"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c981e5c1-7741-48c8-9ee3-545a153f9616",
+      "data": [
+        {
+          "text": "bongo",
+          "alias": "Bengali_language",
+          "meta": "@Bengali_language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "23eedf97-2a3c-47fe-840d-a91e551a1680",
+      "data": [
+        {
+          "text": "bengali",
+          "alias": "Bengali_language",
+          "meta": "@Bengali_language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d929ea2e-6ce0-4690-a712-4cdae7c9f90c",
+      "data": [
+        {
+          "text": "Bangla",
+          "alias": "Bengali_language",
+          "meta": "@Bengali_language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

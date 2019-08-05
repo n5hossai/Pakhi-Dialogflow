@@ -1,0 +1,148 @@
+{
+  "id": "5f997593-98f3-4cbb-97c5-a7b32b09219e",
+  "name": "About App - Supported Devices - 4 MFS app use",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom.AboutApp-SupportedDevices-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Yes, you can definitely use the bKash app even if you have other MFS apps downloaded in your smartphone."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "23c03c19-b858-4d82-8d63-f807fc0047d8",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "problem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "327b84ee-ff33-437f-b589-1bbec8f17e2b",
+      "data": [
+        {
+          "text": "same handset MFS ",
+          "userDefined": false
+        },
+        {
+          "text": "problem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5a9407ba-697d-48ec-87bc-309a350ecd5e",
+      "data": [
+        {
+          "text": "In the same handset can I use bKash app beside ",
+          "userDefined": false
+        },
+        {
+          "text": "other",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " MFS apps?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8dd5919-4528-4432-b133-6346ae8ed4c6",
+      "data": [
+        {
+          "text": "APP USE MFS",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f3789b71-d005-4c73-a6aa-270def921a14",
+      "data": [
+        {
+          "text": "MFS app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e932bf9c-ce9a-4736-8fd5-3d2c600e809d",
+      "data": [
+        {
+          "text": "mfs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bd553572-e3b9-4f08-b4b7-68d68ac2eedc",
+      "data": [
+        {
+          "text": "MFS app use",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

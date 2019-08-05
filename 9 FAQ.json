@@ -1,0 +1,111 @@
+{
+  "id": "94eae6da-fc14-488d-8b40-2a90510c729b",
+  "name": "9 FAQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "FAQ",
+          "subtitle": "Please check in the FAQ section in our website",
+          "imageUrl": "https://www.bkash.com/sites/all/themes/bkash/logo.png?1234",
+          "buttons": [
+            {
+              "text": "FAQ here",
+              "postback": "https://www.bkash.com/support/frequently-asked-questions"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7f4b5a79-fbef-4153-94d0-d2f73dd9c1b4",
+      "data": [
+        {
+          "text": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e2bef2fe-9106-407e-bf24-b9b801f8b674",
+      "data": [
+        {
+          "text": "প্রশ্ন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "96d55dab-4ff3-48c1-ba3f-9463abdeccf3",
+      "data": [
+        {
+          "text": "questions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0f608300-947a-44ab-bbaf-c7bb2f9515e2",
+      "data": [
+        {
+          "text": "frequently asked question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bf57eb5c-8207-4a3e-a60c-4451b4d44e01",
+      "data": [
+        {
+          "text": "FAQ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

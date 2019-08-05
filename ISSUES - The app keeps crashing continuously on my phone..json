@@ -1,0 +1,128 @@
+{
+  "id": "c7c3c7c6-d6bb-4a77-aae3-d5d2de3be2eb",
+  "name": "ISSUES - The app keeps crashing continuously on my phone.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1dcd03ea-a8fb-4ea3-a913-0387558727a3",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Sorry to hear that. Requesting you to share details of your problem with us at our support section along with your bKash Account number."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To know more, visit: https://www.bkash.com/bn/support/contact-us"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "36149476-0401-4eba-a58d-919b835a23b7",
+      "data": [
+        {
+          "text": "app crash",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2bcc8be3-75ce-4fda-a5c9-3e1361b69859",
+      "data": [
+        {
+          "text": "crash",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e7bd6b46-815d-4c2e-a741-60b20b279b07",
+      "data": [
+        {
+          "text": "App keeps crashing",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "06c8f56d-ed7f-44b1-beee-f0d6fbc9d5b6",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "App keep crashing",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "67fa6111-7c33-4351-b6e2-cacf143e3b7a",
+      "data": [
+        {
+          "text": "The app keeps crashing continuously on my phone.",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}
