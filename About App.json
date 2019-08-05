@@ -1,0 +1,186 @@
+{
+  "id": "6ce7b548-4286-4345-900b-2fe60cdb093b",
+  "name": "About App",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "AboutApp-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Use bKash App",
+          "subtitle": "bKash app is easy, simple and free.",
+          "imageUrl": "https://cdnhost.xyz/app/img/fb-image.jpg",
+          "buttons": [
+            {
+              "text": "For iOS",
+              "postback": "https://apps.apple.com/us/app/bkash/id1351183172"
+            },
+            {
+              "text": "For android",
+              "postback": "https://play.google.com/store/apps/details?id=com.bKash.customerapp&hl=en"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "About bKash App",
+          "replies": [
+            "How to use bKash App",
+            "Supported Devices",
+            "Issues",
+            "FAQ",
+            "Ask a question"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1ee06bbc-60a3-4dbb-a5f1-0e889fd5e1d2",
+      "data": [
+        {
+          "text": "অ্যাপ এর ব্যাপারে",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0cc5f006-bc4f-4210-930a-ea34090e4645",
+      "data": [
+        {
+          "text": "অ্যাপ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3bbc88df-c85b-4fc0-ade0-f0ae728d5254",
+      "data": [
+        {
+          "text": " অ্যাপ্লিকেশন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a6ab4237-c526-4908-9995-36be2631b32f",
+      "data": [
+        {
+          "text": "iOS app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3518e65-a9bf-4e92-b8c4-4b1f82efe27c",
+      "data": [
+        {
+          "text": "android app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b9423f92-7ef9-4aad-9727-647e545b5672",
+      "data": [
+        {
+          "text": "application",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ed009e0c-1d80-4d88-865b-77242ce7ac8f",
+      "data": [
+        {
+          "text": "app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0ecfd193-a0f4-4b8c-ad85-67e9872f2c1c",
+      "data": [
+        {
+          "text": "Tell me about app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3c1e9103-604f-4431-be97-a5c5bb04ea0d",
+      "data": [
+        {
+          "text": "About app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

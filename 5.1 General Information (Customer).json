@@ -1,0 +1,213 @@
+{
+  "id": "76c530d7-8fc2-4d35-a87b-37a02f648250",
+  "name": "5.1 General Information (Customer)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "51GeneralInformationCustomer-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d3d73164-b673-4890-a831-3f04028a9393",
+          "required": false,
+          "dataType": "",
+          "name": "GeneralInformation",
+          "value": "General Information",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "General Information (Pick one, swipe to see all options)",
+          "replies": [
+            "Cash In",
+            "Cash Out",
+            "Mobile Recharge",
+            "Payment",
+            "Send Money",
+            "Limits",
+            "Pay Bill",
+            "Change PIN",
+            "Check Balance",
+            "Others"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4970d90f-e9af-434d-ae97-d3f1c4b0b633",
+      "data": [
+        {
+          "text": "তথ্য",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b3dd9470-ec8b-48a5-9335-f030df6558d5",
+      "data": [
+        {
+          "text": "সাধারণ তথ্য",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dbfe41d3-3c1e-4090-8774-129569117467",
+      "data": [
+        {
+          "text": " সাধারণ জ্ঞাতব্য",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dde87ab6-89c0-42b9-b6c8-e6e90309d121",
+      "data": [
+        {
+          "text": "জেনেরাল ইনফরমেশন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d62d1129-0678-47a1-bd23-f1791293b2fb",
+      "data": [
+        {
+          "text": "জেনেরাল তথ্য",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "435d436b-8d61-4bd8-bf76-366e2d2bf99d",
+      "data": [
+        {
+          "text": "back",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b3440a98-8134-4cc3-afc9-1b69a0d5c970",
+      "data": [
+        {
+          "text": "general",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "db0e83cc-7204-406d-b23f-62d6808d5638",
+      "data": [
+        {
+          "text": "gen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a110c63b-cbd7-4977-8849-f8ef731402d6",
+      "data": [
+        {
+          "text": "info",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "614a42e1-af07-4e3e-80e5-3320f60dc099",
+      "data": [
+        {
+          "text": "Gen info",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d5e5a602-82e2-478e-810d-1382814b60b1",
+      "data": [
+        {
+          "text": "General Information",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

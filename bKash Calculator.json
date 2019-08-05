@@ -1,0 +1,226 @@
+{
+  "id": "1fcc9d8d-1670-45a8-b23c-1af8b8f12f9d",
+  "name": "bKash Calculator",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Calculate",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "https://www.bkash.com/support/tariff-limits/tariff",
+                      "title": "Click here to Calculate",
+                      "webview_height_ratio": "full",
+                      "messenger_extensions": true
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "861789be-e006-487f-bc81-cfa63ae9072f",
+      "data": [
+        {
+          "text": "calculate",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eb8ef8e2-ecc1-482c-870c-142fcd23c9d8",
+      "data": [
+        {
+          "text": "কাল্কুলেট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1e5de7e9-9b9f-4130-917b-cc3e2445df94",
+      "data": [
+        {
+          "text": "ক্যালকুলেটর",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "05e485e9-5213-4294-b1ee-3063521a47e4",
+      "data": [
+        {
+          "text": "খরচ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "097fe5f2-94cf-4faf-bd34-833e3b735dc4",
+      "data": [
+        {
+          "text": "হিসাব",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0bb4ed7e-9d32-4790-9605-18dd1ff1c0a3",
+      "data": [
+        {
+          "text": "hishabh",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "df377a0f-3bfd-4778-ab1d-d777aecfe3a2",
+      "data": [
+        {
+          "text": "hishab",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "282916f9-3a0c-4ce2-99ac-b4b44b2c29d1",
+      "data": [
+        {
+          "text": "hisab",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9a0fccb5-89e3-4217-ae7c-1c0ced897892",
+      "data": [
+        {
+          "text": "maths",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8eb41c1-0b34-4fec-9391-62fef5f4740b",
+      "data": [
+        {
+          "text": "cost",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "721f802c-6b2d-4dbe-a089-eb9006e66cf7",
+      "data": [
+        {
+          "text": "khoroch",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "321e5ba7-b04d-41d2-9425-7e8b8183a6de",
+      "data": [
+        {
+          "text": "calculator",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ea5f01d3-624b-4084-98a7-a5d6b2ae1f49",
+      "data": [
+        {
+          "text": "calc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

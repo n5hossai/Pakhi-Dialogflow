@@ -1,0 +1,179 @@
+{
+  "id": "d5c5a260-d715-4888-9a20-9039008e97b3",
+  "name": "5.1 General Information (Customer) - Change PIN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "For ensuring the security of your bKash Account, it is recommended that you change your bKash Mobile Menu PIN when you feel that it may have been compromised.\nTo make your bKash Account more secure, please use 5-digit PIN. To change your PIN, please dial *247# and follow the steps below:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To know more about it, go to: https://www.bkash.com/products-services/my-bkash/change-mobile-menu-pin"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "46af57aa-70ab-42e5-aef7-e8a1ad496023",
+      "data": [
+        {
+          "text": "PleaseChangeMyPIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "77b98e25-8abe-4df2-887f-5326bcfc2826",
+      "data": [
+        {
+          "text": "chagne pin",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8caa9331-49b1-43b5-9074-5da1b8bd95dc",
+      "data": [
+        {
+          "text": "how can I ",
+          "userDefined": false
+        },
+        {
+          "text": "change",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " my PIN number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "13448eda-026d-480b-a959-8b8c00e25325",
+      "data": [
+        {
+          "text": "Change PIN",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c2e01373-9bc7-4b48-838f-c5ec3e945b81",
+      "data": [
+        {
+          "text": "পিন নাম্বার পালটাবো কেমনে",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5836f9f5-629b-4cdb-a3fc-925236ebc81a",
+      "data": [
+        {
+          "text": "পিন মনে নাই ভাই",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "25f48fed-1391-48a3-b89e-af80b0156de3",
+      "data": [
+        {
+          "text": "পিন নাম্বার ভুইলা গেসি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "083bc88c-7ce1-4830-bdca-068ba2604461",
+      "data": [
+        {
+          "text": "পিন নাম্বার ভুলে গিয়েছি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d3b717fc-64e1-46e0-b88f-d347b9c0859c",
+      "data": [
+        {
+          "text": "change PIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

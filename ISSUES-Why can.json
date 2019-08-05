@@ -1,0 +1,55 @@
+{
+  "id": "11da3a5d-0a70-465d-95b8-ce52109a644d",
+  "name": "ISSUES-Why can't I used bKash app on Rooted Android devices?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To ensure utmost security of your account, bKash app usage is disabled on rooted devices."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0937592a-746f-454f-9277-368560a58b0b",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Rooted problem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

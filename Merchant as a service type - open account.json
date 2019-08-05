@@ -1,0 +1,130 @@
+{
+  "id": "35a78d45-1513-44fc-9885-60c383259f6b",
+  "name": "Merchant as a service type - open account",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Merchantasaservicetype.Merchantasaservicetype-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Merchant Account",
+          "subtitle": "Creating merchant account is easy",
+          "imageUrl": "https://www.bkash.com/sites/all/themes/bkash/logo.png?1234",
+          "buttons": [
+            {
+              "text": "Open Merchant Account",
+              "postback": "https://www.bkash.com/i-want-register/send-registration-request"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "afe1550c-ead1-4b34-bd20-e6175a029548",
+      "data": [
+        {
+          "text": " মার্চেন্ট অ্যাকাউন্ট খুলুন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8866929c-0498-4fcb-8140-7214767d76b4",
+      "data": [
+        {
+          "text": "Open ",
+          "userDefined": false
+        },
+        {
+          "text": "Merchant",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Acc.",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "863ef75c-adde-4000-a4b3-00f19f92a3b3",
+      "data": [
+        {
+          "text": "কিভাবে একটি বিকাশ মার্চেন্ট অ্যাকাউন্ট খুলুন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ce223fe9-a049-4bf1-b04d-98d633ead895",
+      "data": [
+        {
+          "text": "How to open a bKash Merchant Account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d8cd5f99-e751-4e27-8e16-2a9cc3510d5e",
+      "data": [
+        {
+          "text": "open ",
+          "userDefined": false
+        },
+        {
+          "text": "merchant",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " account",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

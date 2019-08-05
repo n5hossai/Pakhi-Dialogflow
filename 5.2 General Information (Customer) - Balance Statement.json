@@ -1,0 +1,279 @@
+{
+  "id": "8377ccab-cf7b-4815-8ff8-f0665742c612",
+  "name": "5.2 General Information (Customer) - Balance Statement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "52GeneralInformationCustomer.52GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You can check your bKash account’s transaction mini statement anytime you want from the “Request Statement” option. To check your account’s transaction mini statement follow the steps below:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Go to your bKash Mobile Menu by dialing *247#\n2. Choose “My bKash”\n3. Choose “Request Statement”\n4. Enter your Mobile Menu PIN"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You will see last 6 transaction short description of your bKash Account."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope that helps!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "9da7249d-75db-457e-a150-8fdc0fae39bd",
+      "data": [
+        {
+          "text": "balance statment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "53483e16-e280-45df-8e90-815deefa1386",
+      "data": [
+        {
+          "text": "ভারসাম্য বিবৃতি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b4edff2b-0dde-4393-9998-555b05c6c49d",
+      "data": [
+        {
+          "text": "বিবৃতি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a698aac5-14da-42bf-be65-842216ee4b69",
+      "data": [
+        {
+          "text": "বিকাশ স্টেটমেন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e5a52235-e001-4d25-b992-d78f9fe3d91b",
+      "data": [
+        {
+          "text": "ব্যাল্যান্স স্টেটমেন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "633e9f51-ba39-4e51-92b2-2f32cc3e76b5",
+      "data": [
+        {
+          "text": "স্টেটমেন্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8604c843-f137-4ee7-abf4-e6654dc21ebb",
+      "data": [
+        {
+          "text": "bKash statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c1b09197-ffe5-4573-804b-eed5be1b486c",
+      "data": [
+        {
+          "text": "money statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eaefc701-5683-47e6-ad89-0fcfa8f61bfa",
+      "data": [
+        {
+          "text": "balance sheet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7b493e9b-b527-4c75-884a-47d13b5c80d9",
+      "data": [
+        {
+          "text": "state",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ff80b97b-6376-4f02-a47d-2635b77b0c35",
+      "data": [
+        {
+          "text": "statemnt",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e1fed562-d0bb-4161-8e59-29768c0767b4",
+      "data": [
+        {
+          "text": "stat",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "416d2997-17a2-4c17-b1fc-7a2a580e73b8",
+      "data": [
+        {
+          "text": "balance stat",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c2991839-0fde-447b-a0cb-ffba83d1be79",
+      "data": [
+        {
+          "text": "statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "66a08ad0-d094-46e3-8374-240603f6fe6e",
+      "data": [
+        {
+          "text": "transaction statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9f3e0ee0-208b-4785-9fb3-0659c27b424a",
+      "data": [
+        {
+          "text": "wallet statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fa1a38cf-df0d-447c-bb7b-85e1cc53c1bc",
+      "data": [
+        {
+          "text": "balance statement",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

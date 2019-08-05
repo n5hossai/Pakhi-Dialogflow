@@ -1,0 +1,208 @@
+{
+  "id": "273c64b9-0146-4d1f-9bd7-9725a3128a71",
+  "name": "3 Type of Service (Customer, Merchant, Agent)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f16b0852-4892-4777-9a8c-7bd68aaac140",
+          "required": false,
+          "dataType": "@English_language",
+          "name": "English_language",
+          "value": "$English_language",
+          "prompts": [
+            "Sorry, didn't get you. Please choose/type either Bangla or English"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Please let me know what kind of service you want."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Select a quick link below:",
+          "replies": [
+            "1#Customer",
+            "2#Merchant",
+            "3#Agent"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ef2fa826-0dc7-4756-bffe-589dc223a371",
+      "data": [
+        {
+          "text": "বিদেশী ভাষা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0f4a908e-8c8e-4be0-b43b-b740132a5ead",
+      "data": [
+        {
+          "text": "বিদেশি ভাষা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4fd730ba-8f53-4e12-ab91-2093070770ea",
+      "data": [
+        {
+          "text": "ইংলিশ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "08778244-c550-4b07-82ea-ce91ec6d1333",
+      "data": [
+        {
+          "text": "English (ইংরেজি)",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "78a0ca15-1093-487f-83ff-c82233873d09",
+      "data": [
+        {
+          "text": "english",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5e05eca3-6f42-4d43-9351-411c26f3b615",
+      "data": [
+        {
+          "text": "Bideshi",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ccb13fe1-455f-45f6-ad47-38a8fdf3d1a3",
+      "data": [
+        {
+          "text": "American English",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fbcee16c-42c0-4931-9a90-e094d4552f83",
+      "data": [
+        {
+          "text": "British English",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9da5fba1-969a-4899-a019-fb1d3f6ff3d0",
+      "data": [
+        {
+          "text": "Eng",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ead671f2-0d4b-45b5-8cd2-9948bf4756dd",
+      "data": [
+        {
+          "text": "ইংরেজি",
+          "alias": "English_language",
+          "meta": "@English_language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

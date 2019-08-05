@@ -1,0 +1,217 @@
+{
+  "id": "22ceceab-2d94-496d-934f-ef332f713a43",
+  "name": "About App - Supported Devices - 3 Not Rooted Device",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutApp.AboutApp-custom.AboutApp-SupportedDevices-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bbde2fb4-a1b8-4382-bec0-bf2ab7bb9f4f",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Sorry to hear that. Requesting you to share your problem with us at our support section along with your bKash Account number."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "That seems like a problem!",
+          "subtitle": "Call at helpline for fast solution",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvq-VbH5tQl76ZdjNjS330V-2SO8GrJrGDHwS18QED2Cu7m12-",
+          "buttons": [
+            {
+              "text": "Support",
+              "postback": "https://www.bkash.com/support/contact-us"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3c88d196-65e2-41a5-b242-897a43a6a063",
+      "data": [
+        {
+          "text": "phone ",
+          "userDefined": false
+        },
+        {
+          "text": "not rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "69cebb9b-48cb-439e-9ef2-f32d829fff9a",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "no root",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "33905064-0071-4856-82fa-338ae695d1e2",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "not root",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8e99343b-d3a3-43e6-89b1-48a3796ec80f",
+      "data": [
+        {
+          "text": "device ",
+          "userDefined": false
+        },
+        {
+          "text": "not rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "02c980ac-01aa-4092-95b9-7096157f9c24",
+      "data": [
+        {
+          "text": "No Root",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "14d41279-4aa8-4aa4-8235-cbf734beb9b2",
+      "data": [
+        {
+          "text": "Not Rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3cb30165-800f-4a1a-adc6-93f215a43fd2",
+      "data": [
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Not rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fa1c6529-6277-476c-9fff-90475bd10611",
+      "data": [
+        {
+          "text": "not rooted",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        },
+        {
+          "text": " device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

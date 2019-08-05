@@ -1,0 +1,169 @@
+{
+  "id": "95167276-c956-423e-af09-539c22e7945f",
+  "name": "2 Welcome + Choose Language",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Hello, I'm Pakhi! Nice to meet you",
+          "subtitle": "I'm here to assist you, please proceed",
+          "imageUrl": "https://www.pastepic.xyz/images/2019/07/01/Hello-Ami-Pakhi6f56aa5032c19ea5.png",
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "I am your virtual assistant Pakhi. Which language would you prefer to continue in??"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "আমি আপনার ভার্চুয়াল অ্যাসিস্টেন্ট  পাখি!  আপনি কোন ভাষায় কথা বলতে চাচ্ছেন?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Pick a language",
+          "replies": [
+            "English (ইংরেজি)",
+            "বাংলা (Bengali)"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "get_started": {
+              "payload": "<GET_STARTED_PAYLOAD>"
+            }
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "23522506-c5c5-4430-8787-4be742613ecf",
+      "data": [
+        {
+          "text": "আবার আরম্ভ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aebde051-bbd1-4bed-a528-349627bf40e0",
+      "data": [
+        {
+          "text": "আরম্ভ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a04623b1-44cd-45a2-834a-91b7a71baea7",
+      "data": [
+        {
+          "text": "প্লিজ শুরু করুন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7301c8f4-826a-4e55-a4b5-3b4be59c6ee7",
+      "data": [
+        {
+          "text": "শুরু করেন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "95c943d9-d848-4b70-85a4-7134f44930f2",
+      "data": [
+        {
+          "text": "শুরু কর",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "335f6713-1365-4758-96d3-24a5bd1cc222",
+      "data": [
+        {
+          "text": "স্টার্ট",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "771b4217-4a00-428a-88ce-ac6020d8dd25",
+      "data": [
+        {
+          "text": "আবার স্টার্ট কর",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2fa83ec0-8244-413d-abd1-df51e9d17397",
+      "data": [
+        {
+          "text": "পুনরায় স্টার্ট করুন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "e45a0384-183c-4306-8471-22b09c2a5565",
+  "name": "Merchant as a service type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Merchantasaservicetype-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "141e2d28-d96f-473d-bc3d-e2572bf075b0",
+          "required": false,
+          "dataType": "@Merchant_serviceType",
+          "name": "Merchant_serviceType",
+          "value": "$Merchant_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Great! How can I help you?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Choose:",
+          "replies": [
+            "Open Merchant Acc.",
+            "Other issue"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d96e2966-52d8-4880-9adc-861a3755ed79",
+      "data": [
+        {
+          "text": "2",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "#",
+          "userDefined": false
+        },
+        {
+          "text": "Merchant",
+          "alias": "Merchant_serviceType",
+          "meta": "@Merchant_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bae95b99-a03a-409f-aa8d-a2a2b2b2130d",
+      "data": [
+        {
+          "text": "বণিক",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8e895edd-0b4c-495b-a559-78635b46ed7e",
+      "data": [
+        {
+          "text": "Merchant",
+          "alias": "Merchant_serviceType",
+          "meta": "@Merchant_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

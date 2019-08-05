@@ -1,0 +1,100 @@
+{
+  "id": "fe9d4679-a9b4-4e4e-a0eb-5dbc03a6b4ab",
+  "name": "Ask a question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fcdba105-ccf3-46e5-acc7-70be5394e9b5",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "bKash Support",
+          "subtitle": "For support call 16247, or:",
+          "imageUrl": "https://www.bkash.com/sites/all/themes/bkash/logo-bn.png?1234",
+          "buttons": [
+            {
+              "text": "bKash Support",
+              "postback": "https://www.bkash.com/bn/support/contact-us"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "47611f07-1301-4da7-b85f-2ea210f5f7dc",
+      "data": [
+        {
+          "text": "Ask a question",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "265080c0-390b-44b7-8424-e551cfd60982",
+      "data": [
+        {
+          "text": "\n প্রশ্ন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d04bc50a-8f04-4cbb-aed3-258de80020d8",
+      "data": [
+        {
+          "text": "question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

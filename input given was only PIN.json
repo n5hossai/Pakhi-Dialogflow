@@ -1,0 +1,159 @@
+{
+  "id": "b28e88da-6e5c-4ebb-87f7-eb73df3f457e",
+  "name": "input given was only PIN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Did you mean change PIN or Forgot PIN ?",
+          "replies": [
+            "PleaseChangeMyPIN",
+            "IForgotMyPIN"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "92ce845f-3f45-4ca6-86d8-7b3cd1858577",
+      "data": [
+        {
+          "text": "গোপন পিন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2f94b130-743c-4701-8d48-e7206a2a7ba7",
+      "data": [
+        {
+          "text": "পিন নাম্বার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "41d52924-0173-45ca-bce4-160cbbb672d5",
+      "data": [
+        {
+          "text": "পিন",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "232373c3-2661-4a1e-83be-a24510aa3a32",
+      "data": [
+        {
+          "text": "secret pin",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9610a8c6-3e32-4625-ae66-ff7cd46f4f40",
+      "data": [
+        {
+          "text": "secret number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "29bbc65d-080e-4749-bcf0-676a6e41c7db",
+      "data": [
+        {
+          "text": "secret",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3a7a9be8-3c03-4ada-9396-409b2d82595b",
+      "data": [
+        {
+          "text": "গোপন নাম্বার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4f8fd86f-8092-43e8-9fbb-7e53d3b94a9a",
+      "data": [
+        {
+          "text": "passward",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aac29c28-bb5f-4cbf-980e-b08d71307aa5",
+      "data": [
+        {
+          "text": "PIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

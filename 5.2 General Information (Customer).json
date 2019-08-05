@@ -1,0 +1,106 @@
+{
+  "id": "8b4e1c9c-3b4b-47c8-a1f7-23f97544010c",
+  "name": "5.2 General Information (Customer)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "52GeneralInformationCustomer-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4522e570-af31-417f-9570-e2fe766d88f0",
+          "required": false,
+          "dataType": "@Others_serviceType_GI",
+          "name": "Others_serviceType_GI",
+          "value": "$Others_serviceType_GI",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Others",
+          "replies": [
+            "Balance Statment",
+            "Remittance",
+            "Bank Transfer",
+            "Back"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "2acf9acb-f635-4762-93f2-bc10f9f9b92c",
+      "data": [
+        {
+          "text": "অন্যান্য",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c96bab09-736c-4547-ae69-6f07bf45755b",
+      "data": [
+        {
+          "text": "Others",
+          "alias": "Others_serviceType_GI",
+          "meta": "@Others_serviceType_GI",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "35353350-e51d-4eea-860a-195f831586fd",
+      "data": [
+        {
+          "text": "extra",
+          "alias": "Others_serviceType_GI",
+          "meta": "@Others_serviceType_GI",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

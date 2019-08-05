@@ -1,0 +1,274 @@
+{
+  "id": "6d3df2ed-0f26-4d0a-bd4d-3053aa20a164",
+  "name": "5.1 General Information (Customer) - Mobile Recharge",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Mobile Recharge allows you to recharge Mobile Airtime from your bKash Account. You can recharge or top up your own mobile phone number or someone else's mobile phone number. For mobile recharge, follow the steps below:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Go to your bKash Mobile Menu by dialing *247#\n2. Choose “Mobile Recharge”\n3. Choose your operator\n4. Choose your connection type\n5. Enter the 11 digit mobile number you want to recharge for\n6. Enter the amount of airtime you want to buy\n7. Enter your bKash Mobile Menu PIN to confirm"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope I could be of help today!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c0cf3396-44a1-4b8f-87bf-24a82575cbf2",
+      "data": [
+        {
+          "text": "ফ্লেক্সি নাম্বার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9b9648f9-f9c4-4c8e-a2bf-ac0ca9716763",
+      "data": [
+        {
+          "text": "ফ্লেক্সি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "24b6dac8-b381-40af-beb6-1608eee0f681",
+      "data": [
+        {
+          "text": "ফ্লেক্সি লোড",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d50f282d-4bb2-447c-a973-b9c89c788331",
+      "data": [
+        {
+          "text": "মোবাইল এ টাকা ঢু কাব কিভাবে",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a15638d5-7b5b-4e50-a020-1f87bf94919a",
+      "data": [
+        {
+          "text": "মোবাইল এ টাকা ভরবো কি করে?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e25df462-7610-46f9-a243-a5f20c41a633",
+      "data": [
+        {
+          "text": "ফ্লেক্সি করব কিভাবে?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f7cda403-7595-4e08-aded-ac97474b442c",
+      "data": [
+        {
+          "text": "flexi load",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "db13b496-768f-4db6-a97d-935845e79f3c",
+      "data": [
+        {
+          "text": "How to top up ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7b21b508-6eba-4af7-a61d-aa2f58365fe2",
+      "data": [
+        {
+          "text": "How to mobile recharge?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4232f134-1c92-4f7b-ad44-c2a089f41acb",
+      "data": [
+        {
+          "text": "num recharge",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "51cf782f-21bb-4e20-8a5f-65f6fd95ec14",
+      "data": [
+        {
+          "text": "number recharge",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc43c73a-7571-4e41-979e-7f7a8ac39ba8",
+      "data": [
+        {
+          "text": "recharging my number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7d6568b7-9616-44b2-9705-12d316c491a9",
+      "data": [
+        {
+          "text": "money in phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dfdebcd9-703d-412a-b6be-cc50d7a142a7",
+      "data": [
+        {
+          "text": "phone recharge",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c54950d1-f519-4df7-a4c7-d2e6049c6c36",
+      "data": [
+        {
+          "text": "mob",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1103c2da-ea99-4e2a-a1a4-01a8534fe417",
+      "data": [
+        {
+          "text": "mob recharg",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b408ba36-f4aa-4e6c-8d80-253f0e4c1a13",
+      "data": [
+        {
+          "text": "mobile recharge",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

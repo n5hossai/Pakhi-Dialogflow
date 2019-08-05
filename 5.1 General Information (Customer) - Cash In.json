@@ -1,0 +1,116 @@
+{
+  "id": "8a99ce69-8ae4-480e-94f3-34aa0d4a038c",
+  "name": "5.1 General Information (Customer) - Cash In",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-next",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9c279ac4-060b-4a42-a7da-ba570b991a27",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To deposit money into your bKash Account:"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. Go to any bKash Agent\n2. Let the Agent know the amount you want to Cash In\n3. Write down your bKash Account Number and the Cash In amount in the Agent Register\n4. Pay the amount of money you want to Cash In\n5. In exchange, the Agent will send balance to your bKash Account. Cash In done!"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "You and the Agent will both get a confirmation message from bKash. Remember to sign the Agent Register before leaving the counter."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope I could be of help!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1b5b5546-4173-46a1-9c4f-53f531e6b0b5",
+      "data": [
+        {
+          "text": "নগদ ঢুকানো",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cce6676d-8d5a-4c32-8fee-6d74df2ae756",
+      "data": [
+        {
+          "text": "টাকা ঢুকান",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "469fadc1-528a-4f88-8e3e-1d473e3b1324",
+      "data": [
+        {
+          "text": "Cash In",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

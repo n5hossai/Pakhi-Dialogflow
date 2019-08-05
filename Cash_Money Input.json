@@ -1,0 +1,165 @@
+{
+  "id": "83638982-191e-46b9-8921-9c72fea982b2",
+  "name": "Cash/Money Input",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Which service do you want to know about?",
+          "replies": [
+            "Cash in",
+            "Cash out",
+            "Send money"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "058f44a9-8c2a-4e6d-8b52-542729a4f103",
+      "data": [
+        {
+          "text": "taka",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3ff156eb-0295-4be9-9628-4e873e131f16",
+      "data": [
+        {
+          "text": "nogod taka",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "22fd0221-ded6-4507-b3df-2fbfc4e7ba72",
+      "data": [
+        {
+          "text": "Nogod",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc9a9b5b-4375-4452-998c-0a2959f94285",
+      "data": [
+        {
+          "text": "টাকা পয়শা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9ea297c8-8d17-4f55-acba-2ac4c676769e",
+      "data": [
+        {
+          "text": "পয়সা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "13a197c1-2c88-4764-8643-1054ecc37a53",
+      "data": [
+        {
+          "text": "টাকা",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc1f2614-5acf-45ed-9f02-a11e2de23028",
+      "data": [
+        {
+          "text": "নগদ",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b5f58c56-2ebc-4df1-bce0-235c2a54abfd",
+      "data": [
+        {
+          "text": "money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "99d976d2-61a6-4ce5-975e-1b4ce1827fe0",
+      "data": [
+        {
+          "text": "Cash",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

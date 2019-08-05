@@ -1,0 +1,143 @@
+{
+  "id": "9b7d785d-9713-4bd9-a93a-142146963879",
+  "name": "6 I forgot my PIN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Sorry to hear that. Please call bKash helpline 16247 or visit any bKash Center or bKash Plus to unlock your PIN and continue using bKash app again."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Or you can share your problem with us at our support section along with your bKash Account number."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Note: Do not share your PIN with anyone. bKash will never ask for your PIN or any other verification codes"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0ee50b99-7481-499e-b9e2-e4303b676f57",
+      "data": [
+        {
+          "text": " পারিশ্রমিক",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ffee6ba8-be24-4578-96db-fb3a3dbb6020",
+      "data": [
+        {
+          "text": "Can't remember my PIN number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "656a0af2-28a8-4f42-8853-c0dfb9113b65",
+      "data": [
+        {
+          "text": "পিন নাম্বার মনে নাই, কি করি?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd0c201c-7b96-4549-9873-b63c915bc0a1",
+      "data": [
+        {
+          "text": "পিন নইম্বের মনে পরতেসে না",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ec09849d-48a8-44a7-aaaf-f0d85cd73397",
+      "data": [
+        {
+          "text": "পিন নাম্বার হারায় ফেলসি",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "25ee3efe-489d-43c4-9c1b-8131eb01872b",
+      "data": [
+        {
+          "text": "forgot my PIN number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa31a2aa-bf52-49d0-b27d-269027ee424c",
+      "data": [
+        {
+          "text": "forgot ",
+          "userDefined": false
+        },
+        {
+          "text": "pin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

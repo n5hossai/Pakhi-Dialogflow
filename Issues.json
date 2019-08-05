@@ -1,0 +1,108 @@
+{
+  "id": "ac24884c-d913-405f-9cbd-107b994c24f1",
+  "name": "Issues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0dbf079c-ec7a-4ad0-b4c0-455368a44736",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Sorry to hear that you are facing issues with bKash app. What type of issue you are facing:\n\n\n1. The App doesn't work on my phone.\n\n2. The app keeps crashing continuously on my phone.\n\n3. I can't use the app. The text- 'The app works only in Bangladesh' pop up while opening the app\n\n4. I can't log in via bKash app\n\n5. I don't get any verification codes (OTP).\n\n6. I can't use bKash app without inserting bKash registered SIM card on my phone.\n\n7. After converting my mobile netword (MNP), I don't get any confirmation texts and OTP."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Which problem are you facing ?",
+          "replies": [
+            "1. App not working",
+            "2. App crashes",
+            "3. Outside BD",
+            "4. Can't log in",
+            "5. Not getting OTP",
+            "6. Can't use w/o SIM",
+            "7. Not getting texts",
+            "8. Ask a question"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "21037906-e114-43ce-b63e-26dbb22cdd8e",
+      "data": [
+        {
+          "text": "issue",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a64c1fc2-d480-449d-8e85-b67ded075c46",
+      "data": [
+        {
+          "text": "trouble",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0cd371df-e261-47a9-982b-711ac67dc582",
+      "data": [
+        {
+          "text": "Issues",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

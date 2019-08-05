@@ -1,0 +1,249 @@
+{
+  "id": "d04253ed-7a88-49bb-9f9c-0222e88c6cf6",
+  "name": "ISSUES I can't log in via bKash app",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a2f9cbfb-c32e-46f5-a31c-48e44b2c5feb",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Sorry to hear that. Requesting you to share details of your problem with us at our support section along with your bKash Account number."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "That seems like a problem!",
+          "subtitle": "Call at helpline for fast solution",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvq-VbH5tQl76ZdjNjS330V-2SO8GrJrGDHwS18QED2Cu7m12-",
+          "buttons": [
+            {
+              "text": "Support",
+              "postback": "https://www.bkash.com/support/contact-us"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cb88ecf4-1164-4f03-a242-cafa866615f0",
+      "data": [
+        {
+          "text": "app sign in ",
+          "userDefined": false
+        },
+        {
+          "text": "problem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0ada6547-8bff-45a6-81d0-353ba6a8ea06",
+      "data": [
+        {
+          "text": "app log in ",
+          "userDefined": false
+        },
+        {
+          "text": "problem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a2c0ffda-139e-435d-b882-82d49fa02fd9",
+      "data": [
+        {
+          "text": "log in hoina",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3cbbbad2-6769-4570-8d87-7a005b74ae53",
+      "data": [
+        {
+          "text": "can't log in to app on phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c25f2c67-ff28-4af6-a6c9-d418c4b430b1",
+      "data": [
+        {
+          "text": "Can't log in",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ed008f56-d073-4b6d-b732-fea6dd3649b8",
+      "data": [
+        {
+          "text": "can't sign into service on phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d6908fc6-e703-4eaf-ac87-1c5c5b9e6e77",
+      "data": [
+        {
+          "text": "cant sign into app on phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b020ed11-dc63-4f8b-926d-262a582ad03a",
+      "data": [
+        {
+          "text": "can't sign into bkash app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a170a026-5ab1-4942-a17c-526e89757f08",
+      "data": [
+        {
+          "text": "can't sign into wallet app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ec710396-c681-4625-873b-20746833d7ce",
+      "data": [
+        {
+          "text": "can't sign into app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ed31aafc-89f5-48e5-9d46-6267923dd2e0",
+      "data": [
+        {
+          "text": "4",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " can't sign in",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bf3dce6c-2004-461d-ab5b-a98abf1f7ca4",
+      "data": [
+        {
+          "text": " 4 can't login",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "77f9f47c-2095-4d25-8961-46f2fada2610",
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,146 @@
+{
+  "id": "f4cf0706-1adb-4c5c-b735-3783ef6821a8",
+  "name": "ISSUES - I can't see bKash app without inserting bKash registered SIM card on my phone.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "For using the bKash App on your mobile phone, you need to insert the bKash registered SIM card on that phone. For ensuring utmost security of your account, bKash doesn’t allow to use the App without bKash registered SIM card inserted in it."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hope that answers your question."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "bd02e5c6-90cc-4ad1-b405-ca8a93d62c4f",
+      "data": [
+        {
+          "text": "can't use app w/o bKash SIM",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "33cf0594-1dba-44f0-b0ce-588933a8d0e2",
+      "data": [
+        {
+          "text": " can't use app w/o SIM",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "22349678-7683-473f-aa0f-d5e8abee5968",
+      "data": [
+        {
+          "text": "no app for no wallet y?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "218022c5-68d5-4985-a274-ae06653bb811",
+      "data": [
+        {
+          "text": "no app for no bkash wallet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4c643154-cb83-4769-8c5f-be5dd9e219cf",
+      "data": [
+        {
+          "text": "y no app for no bkash number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "05713754-7225-444b-b67a-db5e98699e6e",
+      "data": [
+        {
+          "text": "no bkash num no app why",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "036403ec-1c77-43b0-90ed-14eced41bf2f",
+      "data": [
+        {
+          "text": "can't use app without bkash sim",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a45250c7-3517-4426-b285-fb5592fde224",
+      "data": [
+        {
+          "text": "I can't see bKash app without inserting bKash registered SIM card on my phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

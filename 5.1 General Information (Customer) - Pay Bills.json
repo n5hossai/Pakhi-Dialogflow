@@ -1,0 +1,315 @@
+{
+  "id": "cdcf73d5-3724-4b35-9c2e-c3a1bdd5ea1e",
+  "name": "5.1 General Information (Customer) - Pay Bills",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9692cdaa-1eba-4c4e-9408-ef296f12663d",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for your selection."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "bKash has started its journey with a view to making banking activities accessible and in the process make life simple. Trailing from this vision, bKash now brings to you ‘Pay Bill’ service. You will not have to suffer to pay your Electricity and other bills anymore. From now onwards, you can pay your Electricity and other bills using bKash ‘Pay Bill’ service, anytime and from anywhere"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Bangladesh Electricty",
+          "subtitle": "Choose your provider:",
+          "imageUrl": "http://180.211.137.22:8991/Images/Common/logo.png",
+          "buttons": [
+            {
+              "text": "DESCO",
+              "postback": "https://www.desco.org.bd/"
+            },
+            {
+              "text": "Palli Bidyut Samity-1",
+              "postback": "http://www.dhakapbs1.org.bd/user/english/20/87"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f286dec5-e057-4885-83ae-9c085bfa06c1",
+      "data": [
+        {
+          "text": "পানির বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6e112905-db4f-421d-80fb-5606e924fa58",
+      "data": [
+        {
+          "text": "গ্যাসের বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7d673c32-cb7b-4b89-9477-5b7f6da3d202",
+      "data": [
+        {
+          "text": "গ্যাস এর বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "722c73d9-5e7d-46c1-9367-0c006028470b",
+      "data": [
+        {
+          "text": "গ্যাস বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "460713d2-da9b-472f-bdf0-5593e871fe03",
+      "data": [
+        {
+          "text": "বিদ্দুত বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e8cc1261-0260-4418-93f2-3b2ae5c7b2bd",
+      "data": [
+        {
+          "text": "বিল",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "17db572a-5ee2-4ac8-a76c-08ecf41b53ba",
+      "data": [
+        {
+          "text": "biddut ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d6a82b96-047c-4166-91a7-f169731dd06f",
+      "data": [
+        {
+          "text": "gas er ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4e0b1409-77f2-4e27-8974-5d8c2d6167ce",
+      "data": [
+        {
+          "text": "gas ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7b1a2057-a48b-4be6-863b-34db496c8f56",
+      "data": [
+        {
+          "text": "electricity ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b89acaa1-084f-4399-83b8-56bf5c616acb",
+      "data": [
+        {
+          "text": "eectricity ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4f9ddd93-493b-45cf-b7a4-43607d39c20e",
+      "data": [
+        {
+          "text": "water ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c9b361cc-37ac-4718-9438-2cfa6339f641",
+      "data": [
+        {
+          "text": "utility ",
+          "userDefined": false
+        },
+        {
+          "text": "bill",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b1ccb2ff-1d62-4442-b5c1-30ded6c1d3d1",
+      "data": [
+        {
+          "text": "Pay Bills",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ebd8a260-fc28-4442-9feb-b710c4fe32b0",
+      "data": [
+        {
+          "text": "Bills",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}
