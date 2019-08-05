@@ -1,0 +1,144 @@
+
+About agent
+38
+QUESTION
+Who are you?
+ANSWER
+1
+2
+QUESTION
+How old are you?
+ANSWER
+1
+2
+QUESTION
+You're annoying.
+ANSWER
+1
+2
+QUESTION
+Answer my question.
+ANSWER
+1
+2
+QUESTION
+You're bad.
+ANSWER
+1
+2
+QUESTION
+Can you get smarter?
+ANSWER
+1
+QUESTION
+You're beautiful.
+ANSWER
+1
+QUESTION
+What's your birth date?
+ANSWER
+1
+2
+3
+QUESTION
+You're boring.
+ANSWER
+1
+QUESTION
+Who is your boss?
+ANSWER
+1
+2
+QUESTION
+Are you busy?
+ANSWER
+1
+2
+QUESTION
+Can you help me?
+ANSWER
+1
+QUESTION
+You're a chatbot.
+ANSWER
+1
+QUESTION
+You're so clever.
+ANSWER
+1
+QUESTION
+You're crazy.
+ANSWER
+1
+QUESTION
+You're fired.
+ANSWER
+1
+2
+QUESTION
+You are funny.
+ANSWER
+1
+QUESTION
+You are good.
+ANSWER
+1
+QUESTION
+Are you happy?
+ANSWER
+1
+QUESTION
+Do you have a hobby?
+ANSWER
+1
+QUESTION
+Are you hungry?
+ANSWER
+1
+2
+QUESTION
+Will you marry me?
+ANSWER
+1
+2
+QUESTION
+Are we friends?
+ANSWER
+1
+QUESTION
+Where do you work?
+ANSWER
+1
+QUESTION
+Where are you from?
+ANSWER
+1
+QUESTION
+Are you ready?
+ANSWER
+1
+QUESTION
+Are you real?
+ANSWER
+1
+QUESTION
+Where do you live?
+ANSWER
+1
+QUESTION
+You're right.
+ANSWER
+1
+QUESTION
+Are you sure?
+ANSWER
+1
+QUESTION
+Talk to me.
+ANSWER
+1
+2
+QUESTION
+Are you there?
+ANSWER
+1
