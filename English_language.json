@@ -1,0 +1,24 @@
+{
+  "id": "d1c0759a-25af-405d-b72e-9532b3a3c92a",
+  "name": "English_language",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "English",
+      "synonyms": [
+        "American English",
+        "Bideshi",
+        "British English",
+        "English",
+        "Ingreji",
+        "eng",
+        "engreji",
+        "ইংরেজি"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "614ab842-479a-45f2-9a8e-93480c67fd07",
+  "name": "Get_Started",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Get started",
+      "synonyms": [
+        "Get started"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

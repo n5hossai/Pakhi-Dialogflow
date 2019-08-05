@@ -1,0 +1,17 @@
+{
+  "id": "f7c4bc6c-ab15-4915-9ac1-765915304cf2",
+  "name": "sendMoneySourceNumber",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "sendMoneySourceNumber",
+      "synonyms": [
+        "sendMoneySourceNumber"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
