@@ -1,0 +1,107 @@
+{
+  "id": "7e64ca6f-9e03-4ae1-9c4b-3bba1c2804b0",
+  "name": "Agent as Service Type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "AgentasServiceType-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Great! How may I help you today?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "1. How to be a bKash Agent?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "2. Required Documents"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "3. How to register for bKash Agent app?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "4. Other issue"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "5. Ask a question"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Choose one:",
+          "replies": [
+            "1. Becoming an agent",
+            "2. Required docs",
+            "3. Register for app",
+            "4. Other issue",
+            "5. Ask a question"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7a8befa2-9e0d-4c53-abbf-a12b37af5b89",
+      "data": [
+        {
+          "text": "BecomeAnAgent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7aac05c2-9faf-4ba1-9b2d-c068c60cb026",
+      "data": [
+        {
+          "text": "3#Agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,207 @@
+{
+  "id": "e2e7cf4e-9615-4912-a2a4-247126c9198c",
+  "parentId": "56aa5ab0-35c9-4daf-85e7-55da53102f09",
+  "rootParentId": "56aa5ab0-35c9-4daf-85e7-55da53102f09",
+  "name": "5.1 General Information (Customer) - Send Money - Sender's Number",
+  "auto": true,
+  "contexts": [
+    "51GeneralInformationCustomer-SendMoney-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer-SendMoney.51GeneralInformationCustomer-SendMoney-next",
+      "affectedContexts": [
+        {
+          "name": "51GeneralInformationCustomer-SendMoney-SendersNumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9ef2a481-d65c-421c-a2fe-131942e2b9cf",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "senderNumber",
+          "value": "$senderNumber",
+          "prompts": [
+            "Enter Sender's Number:"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "2b6fa20a-55f9-4ca1-9105-1fe8bfa7d23b",
+      "data": [
+        {
+          "text": "Yes, ",
+          "userDefined": false
+        },
+        {
+          "text": "Send Money",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "295d99c0-6f96-4cab-bb94-72f298ef6fa0",
+      "data": [
+        {
+          "text": "show me the following results",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "48086cc7-e61d-4cae-8c7e-ca32e8af17d5",
+      "data": [
+        {
+          "text": "next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e8dab753-39b3-44c2-8e2f-921fe70e96b1",
+      "data": [
+        {
+          "text": "go to the next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b018aa3a-4f54-4eb6-a5d3-aa8e16eb9ea3",
+      "data": [
+        {
+          "text": "switch to the next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e902181d-37c2-4956-91a9-f34bf8cfce0a",
+      "data": [
+        {
+          "text": "show me the next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5a9e7324-849c-4eba-85a4-969c812c36aa",
+      "data": [
+        {
+          "text": "read the next results",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "18771ea6-4dad-4fb3-acec-886f3767e5fb",
+      "data": [
+        {
+          "text": "following result",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1f5780ca-2c13-4be7-951a-05c1a6ee90b8",
+      "data": [
+        {
+          "text": "go forward",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3c42c4a5-2028-4bbd-9d88-15dc23d3fb38",
+      "data": [
+        {
+          "text": "next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c74d21d1-eeec-4905-9dd1-74a93464eba2",
+      "data": [
+        {
+          "text": "show me next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

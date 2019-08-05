@@ -1,0 +1,100 @@
+{
+  "id": "56aa5ab0-35c9-4daf-85e7-55da53102f09",
+  "name": "5.1 General Information (Customer) - Send Money",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer.51GeneralInformationCustomer-custom",
+      "affectedContexts": [
+        {
+          "name": "51GeneralInformationCustomer-SendMoney-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Send Money allows you to transfer money from your bKash Account to another bKash Account. To send money:\n\n01. Go to your bKash Mobile Menu by dialing *247#\n02. Choose “Send Money”\n03. Enter the bKash Account Number you want to send money to\n04. Enter the amount you want to send\n05. Enter a reference about the transaction. (Do not use more than one word, avoid space or special characters)\n06. Now enter your bKash Mobile Menu PIN to confirm the transaction\n\nDone! You and the Receiver both will receive a confirmation message from bKash.\n\n You can 'Send Money' for free with bKash App!"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To know more and watch video demo about it, go to: https://www.bkash.com/products-services/send-money"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Would you like to send money using the messenger",
+          "replies": [
+            "Yes, Send Money",
+            "No!"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "54610e3e-5833-4989-8f61-5f6f0c5a3df5",
+      "data": [
+        {
+          "text": "টাকা পাঠাও",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d729f9ed-5064-4365-a35e-8cf229b50a2b",
+      "data": [
+        {
+          "text": "টাকা পাঠান",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "54661c7f-a9be-4664-957f-6db3b5e7af62",
+      "data": [
+        {
+          "text": "send money",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
