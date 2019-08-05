@@ -1,0 +1,17 @@
+{
+  "id": "3cc4f67f-18ab-4443-a3b6-f15c2b14d54a",
+  "name": "sendMoneyReceiverNumber",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "sendMoneyReceiverNumber",
+      "synonyms": [
+        "sendMoneyReceiverNumber"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

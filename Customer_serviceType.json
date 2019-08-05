@@ -1,0 +1,343 @@
+{
+  "id": "b47b0580-ed31-419b-98ca-755678e0acd4",
+  "name": "Customer_serviceType",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "ATM",
+      "synonyms": [
+        "ATM",
+        "atm",
+        "automated machine",
+        "automated teller machine",
+        "box",
+        "machine",
+        "এটিএম",
+        "বক্স"
+      ]
+    },
+    {
+      "value": "After converting my mobile network (MNP), I don’t get any confirmation texts and OTP.",
+      "synonyms": [
+        "MNP",
+        "MNP OTP",
+        "mobile network"
+      ]
+    },
+    {
+      "value": "App keep crashing",
+      "synonyms": [
+        "App keep crashing",
+        "The app keeps crashing continuously on my phone",
+        "app crash kore khali",
+        "crash kore khali",
+        "ক্র্যাশিং"
+      ]
+    },
+    {
+      "value": "Ask a question",
+      "synonyms": [
+        "Ask a question",
+        "bKash Support",
+        "bKash hotline",
+        "question",
+        "support",
+        "প্রশ্ন"
+      ]
+    },
+    {
+      "value": "Bank Transfer",
+      "synonyms": [
+        "Bank",
+        "Bank Transfer",
+        "Transfer",
+        "ব্যাংক",
+        "ব্যাংক স্থানান্তর",
+        "হস্তান্তর"
+      ]
+    },
+    {
+      "value": "Cash In",
+      "synonyms": [
+        "Cash In",
+        "deposit money",
+        "dhukao",
+        "taka dhukabo",
+        "taka dhukao",
+        "taka in",
+        "টাকা ঢোকান",
+        "ঢোকান",
+        "নগদ"
+      ]
+    },
+    {
+      "value": "Cash Out",
+      "synonyms": [
+        "Cash Out",
+        "cash out",
+        "take cash",
+        "take out",
+        "takeout",
+        "বাহির করা",
+        "বাহিরে আনা",
+        "বের",
+        "বের করা"
+      ]
+    },
+    {
+      "value": "Change PIN",
+      "synonyms": [
+        "Change PIN",
+        "change",
+        "change password",
+        "password",
+        "pin bodlao",
+        "পরিবর্তন",
+        "পিন পরিবর্তন করুন"
+      ]
+    },
+    {
+      "value": "Customer",
+      "synonyms": [
+        "Customer",
+        "castomer",
+        "custmer",
+        "user"
+      ]
+    },
+    {
+      "value": "I can’t use the app. The text- ‘The app works only in Bangladesh’ pop up while opening the app.",
+      "synonyms": [
+        "VPN",
+        "bangladesh",
+        "only works in bangladesh",
+        "শুধু মাত্র বাংলাদেশ এ কাজ করে"
+      ]
+    },
+    {
+      "value": "Issues",
+      "synonyms": [
+        "Issues",
+        "Other issue",
+        "asshole",
+        "baal",
+        "bal",
+        "balchat",
+        "bitch",
+        "bixch",
+        "bolod",
+        "chagol",
+        "chhagol",
+        "dhuru",
+        "difficult",
+        "fuc",
+        "gordhob",
+        "goru",
+        "hala",
+        "hard",
+        "hegab koi",
+        "i love you",
+        "idiot",
+        "issue",
+        "jhamela",
+        "khanke magi",
+        "khanki",
+        "khashi",
+        "kukur",
+        "kutta",
+        "lol",
+        "love you",
+        "mage",
+        "magi",
+        "other issue",
+        "other issues",
+        "problem",
+        "shala",
+        "stupid",
+        "trouble",
+        "কুকুরছানা",
+        "কুত্তাচোদা",
+        "কুত্তার বাচ্চা",
+        "কুত্তার বাচ্ছা",
+        "খাঙ্কিরপোলা",
+        "খানকি মাগি",
+        "খানকির পোলা",
+        "খান্কি মাগির পোলা",
+        "গুয়ার ভিতরে",
+        "চুতমারানি",
+        "চুদানির পো",
+        "চুদির পোলা",
+        "চুদির ভাই",
+        "চোদনা",
+        "ঠ্যাঁঙ কাইট্টা পুটকি দা ভইরা দুম!",
+        "তর পুটকিত ধান ছড়াইয়া চড়ুই দিয়া খাওয়ামু",
+        "তর মায়রে চুদি",
+        "তর মায়রে বাপ",
+        "তোর হউরিরে ডিগবাজী",
+        "দুশ্চরিত্রা",
+        "নটি মাগি",
+        "নাটকির পো",
+        "নাস্তিক ব্লগার",
+        "পোদ মারানি",
+        "বানচোত",
+        "বালডা আমার",
+        "বালি দিয়া চুদমু তরে খাঙ্কি মাগী!",
+        "বালের রয়েল বেঙ্গল উকুন",
+        "বিকাশ এর মায়রে বাপ",
+        "বেলুন ফুটা মাগির পোলা",
+        "বোকাচোদা",
+        "ভুদার বেটা",
+        "ভেড়াচ্চোদা",
+        "ভোদার পেঁচাল পারো ?",
+        "মাউড়া চোদা",
+        "মাঙ্গির পুত",
+        "মাদারচোদ",
+        "রেন্দি মাগি",
+        "লটির পো",
+        "লটির বেটা",
+        "ল্যাউড়ার পুত",
+        "শালা",
+        "শালার পো শালা",
+        "শুয়োর",
+        "শুয়োরের বাচ্চা",
+        "সমস্যা",
+        "সাউয়া",
+        "হাউয়ার নাতি",
+        "হাউয়ার পো",
+        "হারামখোর",
+        "হারামজাদা",
+        "হারামি",
+        "হারামির বাচ্চা",
+        "হালা ল্যাওড়া চোদা",
+        "হুমুন্দির পুত",
+        "হোগার ভিতরে ভইড়া দিমু"
+      ]
+    },
+    {
+      "value": "Jailbreak problem",
+      "synonyms": [
+        "Jailbreak problem",
+        "gell break",
+        "jail",
+        "jailbreak",
+        "jailbreak chole na",
+        "jelbreak"
+      ]
+    },
+    {
+      "value": "Not a rooted/jail",
+      "synonyms": [
+        "Not a rooted/jail",
+        "amar device jailbreak na",
+        "amar device pure",
+        "amar device rooted na",
+        "amar device rooted or jailbreak na",
+        "jailbreak or rooted na",
+        "not jailbreak",
+        "not rooted"
+      ]
+    },
+    {
+      "value": "OTP",
+      "synonyms": [
+        "OTP",
+        "one time password",
+        "sms ashe na",
+        "sms ashe nai",
+        "text ashe na",
+        "text message",
+        "টেক্সট আশে না",
+        "বালের টেক্সট"
+      ]
+    },
+    {
+      "value": "Offers",
+      "synonyms": [
+        "Offers",
+        "Tell me about offers",
+        "advertisement",
+        "advertisements",
+        "tell me offers",
+        "অফার",
+        "বিজ্ঞাপন"
+      ]
+    },
+    {
+      "value": "Remittance",
+      "synonyms": [
+        "Remittance",
+        "rameytense",
+        "ramitance",
+        "ramitenc",
+        "ramitense",
+        "rammytense",
+        "ramytinse",
+        "remitance",
+        "অর্থপ্রেরণ",
+        "প্রেরণ",
+        "প্রেরিত অর্থ",
+        "প্রেষণ"
+      ]
+    },
+    {
+      "value": "Rooted problem",
+      "synonyms": [
+        "Rooted problem",
+        "android root",
+        "android root problem",
+        "root",
+        "root problem",
+        "অ্যান্ড্রয়েড রুট সমস্যা"
+      ]
+    },
+    {
+      "value": "Send Money",
+      "synonyms": [
+        "How to send money",
+        "Send Money",
+        "Taka pathabo",
+        "deliver money",
+        "dispatch money",
+        "give taka",
+        "money pathao",
+        "pathao taka",
+        "send taka",
+        "taka pathao",
+        "কিভাবে টাকা পাথাব ?",
+        "টাকা পাঠাও",
+        "পাঠান"
+      ]
+    },
+    {
+      "value": "app not working",
+      "synonyms": [
+        "app does not work",
+        "app not working",
+        "baaler app",
+        "bad app",
+        "dhuru kaaj kore na",
+        "not working",
+        "অ্যাপ্লিকেশন কাজ করছে না",
+        "অ্যাপ্লিকেশন কাজ করে না",
+        "কাজ করছে না",
+        "কাজ করে না"
+      ]
+    },
+    {
+      "value": "forgot PIN",
+      "synonyms": [
+        "PIN not working",
+        "bhule gechi",
+        "forget PIN",
+        "forgot",
+        "wrong PIN",
+        "ভুলে",
+        "ভুলে গেছি"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

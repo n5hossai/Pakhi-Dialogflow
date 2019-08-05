@@ -1,0 +1,26 @@
+{
+  "id": "00fda970-08a5-4cb9-ab24-097548a9d838",
+  "name": "Merchant_serviceType",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Merchant",
+      "synonyms": [
+        "Great! How can I help you?",
+        "Merchant",
+        "marchant",
+        "marchent",
+        "mercant",
+        "merch",
+        "বণিক",
+        "মারছান্ত",
+        "মেরছান্ত",
+        "মেরছেন্ত"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

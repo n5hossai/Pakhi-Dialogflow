@@ -1,0 +1,22 @@
+{
+  "id": "d7bc8452-c995-4560-88a5-27dbb92549ce",
+  "name": "Bengali_language",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Bengali",
+      "synonyms": [
+        "Bengali",
+        "bang",
+        "bangla",
+        "matribhasha",
+        "rashtrobhasha",
+        "বাংলা"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

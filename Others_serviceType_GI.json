@@ -1,0 +1,31 @@
+{
+  "id": "404c6f69-108f-4943-ae4a-6b63379f5091",
+  "name": "Others_serviceType_GI",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Others",
+      "synonyms": [
+        "Others",
+        "additional",
+        "different",
+        "extra",
+        "further",
+        "more",
+        "other",
+        "supplemental",
+        "supplementary",
+        "অতিরিক্ত",
+        "অন্য",
+        "অন্যান্য",
+        "বাকি",
+        "বাড়তি",
+        "ভিন্ন"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
