@@ -1,0 +1,108 @@
+{
+  "id": "fb7bbe33-be2a-44da-81ea-ea141dc63800",
+  "parentId": "553083ae-b181-4868-96f5-5abc73d86fb0",
+  "rootParentId": "553083ae-b181-4868-96f5-5abc73d86fb0",
+  "name": "Cash out - ATM",
+  "auto": true,
+  "contexts": [
+    "Cashout-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cashout.Cashout-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7be3775c-73b0-4aa4-bd45-bd7526ee738a",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Requesting ATM Cash Out\nFirstly a security code is required to withdraw cash from BRAC Bank ATM where Cash Out from bKash Account is enabled. For security code follow the steps below-\n\nDial *247# to access bKash Mobile Menu\nChoose \"Cash Out\"\nChoose \"From ATM\"\nEnter your bKash Mobile Menu PIN to request ATM Cash Out\n Users will receive a Security Code (OTP) on your mobile through SMS. This code will remain valid for 5 minutes and can be used only once."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Withdrawing Cash from ATM\nTo withdraw cash from BRAC Bank ATM where Cash Out from bKash Account is enabled follow the steps below-\n\nPress the “bKash Cash Out” button at the left-bottom corner of the ATM Screen\nSelect language\nEnter bKash Account Number\nEnter the Cash Out amount\nEnter the Security Code received through SMS\nCheck the entered information and confirm\nCollect cash and receipt\nYou will receive a confirmation SMS from bKash"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To know more about cash out from ATM, go to: https://www.bkash.com/products-services/cash-out/ATM"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1a086a8f-e22a-4d6a-8778-c75ef0708b02",
+      "data": [
+        {
+          "text": "automated teller machine",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8d929f0d-2622-41d8-9b84-42952c17e2dc",
+      "data": [
+        {
+          "text": "machine",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3ca53515-3574-46d4-9f3a-17efed4fc749",
+      "data": [
+        {
+          "text": "ATM",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

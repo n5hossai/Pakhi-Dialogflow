@@ -1,0 +1,36 @@
+{
+  "id": "550cfa31-2abe-486c-8c15-1c8ad063fb44",
+  "parentId": "b737d98d-6c8a-4d5d-bfd1-d2d87c61c414",
+  "rootParentId": "56aa5ab0-35c9-4daf-85e7-55da53102f09",
+  "name": "5.1 General Information (Customer) - Send Money - Sender's Number - Receiver's Number - amount",
+  "auto": true,
+  "contexts": [
+    "51GeneralInformationCustomer-SendMoney-SendersNumber-ReceiversNumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "51GeneralInformationCustomer-SendMoney.51GeneralInformationCustomer-SendMoney-next.51GeneralInformationCustomer-SendMoney-SendersNumber-custom.51GeneralInformationCustomer-SendMoney-SendersNumber-ReceiversNumber-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

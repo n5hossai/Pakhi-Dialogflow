@@ -1,0 +1,95 @@
+{
+  "id": "0a123158-2137-4a6a-9226-c292d03b577f",
+  "parentId": "7e64ca6f-9e03-4ae1-9c4b-3bba1c2804b0",
+  "rootParentId": "7e64ca6f-9e03-4ae1-9c4b-3bba1c2804b0",
+  "name": "Agent as Service Type - 1. Becoming an Agent",
+  "auto": true,
+  "contexts": [
+    "AgentasServiceType-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Please visit: https://www.bkash.com/i-want-register/send-registration-request"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7d817b4c-8baa-4bb6-ae22-fd782530ec6c",
+      "data": [
+        {
+          "text": "3",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Register for app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a219c4f8-3f6d-4601-ba36-bdaffe93304d",
+      "data": [
+        {
+          "text": "2.",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Required docs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "97a54835-bb2c-44e7-9a54-28fc8b7360d9",
+      "data": [
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Becoming an agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,94 @@
+{
+  "id": "553083ae-b181-4868-96f5-5abc73d86fb0",
+  "name": "Cash out",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Cashout-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e9dfc2c1-bef6-4c13-83f7-cb8062a7acc8",
+          "required": false,
+          "dataType": "@Customer_serviceType",
+          "name": "Customer_serviceType",
+          "value": "$Customer_serviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Thank you for selecting the option.\nYou can cash out from bKash agents and Brac Bank ATM booths.\nSelect one option from below:"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Cash Out options",
+          "replies": [
+            "From Agent",
+            "From ATM"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "5ebabf5c-ff86-4c34-9453-e2d2c144fa66",
+      "data": [
+        {
+          "text": "CashOutFromAgent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8773973c-ec9c-49c1-9200-1fc3583f5bec",
+      "data": [
+        {
+          "text": "Cash Out",
+          "alias": "Customer_serviceType",
+          "meta": "@Customer_serviceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

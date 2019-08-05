@@ -1,0 +1,86 @@
+{
+  "id": "aa16de9f-1474-4d5f-8ed7-3ca74878a2dc",
+  "parentId": "553083ae-b181-4868-96f5-5abc73d86fb0",
+  "rootParentId": "553083ae-b181-4868-96f5-5abc73d86fb0",
+  "name": "Cash out - Agent",
+  "auto": true,
+  "contexts": [
+    "Cashout-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cashout.Cashout-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "01. Go to any bKash Agent\n02. Let the Agent know the amount you want to Cash Out\n03. Write down your bKash Account Number and the amount in the Agent Register\n04. Dial *247# on your mobile for the bKash Mobile Menu\n05. Choose “Cash Out”\n06. Choose “From Agent”\n07. Enter Agent’s bKash Account Number (ask the Agent)\n08. Enter the amount\n09. Enter your bKash Mobile Menu PIN\n\nDone! You and the Agent will both receive a confirmation message. Count the amount the Agent gives you to make sure it is correct and sign the Agent Register before leaving the counter."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "To know more, or watch video about it, go to: https://www.bkash.com/products-services/cash-out/agent"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "effc07ee-adc2-45d7-bdb5-62858dd3df92",
+      "data": [
+        {
+          "text": "representative",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1c31ec93-668d-4ee5-8ce4-e4888075b9bc",
+      "data": [
+        {
+          "text": "দোকানদার",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0b4d8a36-55a0-48e3-b341-22ad99a8f396",
+      "data": [
+        {
+          "text": "From Agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}
